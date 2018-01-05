@@ -69,6 +69,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_sticky_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_sticky_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -108,25 +121,32 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/fonts\/font-files\/4-questa_grande_bold_31-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/font-files\/4-questa_grande_bold_31-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/font-files\/4-questa_grande_bold_31-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/font-files\/4-questa_grande_bold_31-webfont.woff2",
+		"oF": 0
+		},
 	"\/fonts\/font-files\/demo.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/fonts\/font-files\/demo.html",
-		"oF": 0
-		},
-	"\/fonts\/font-files\/FONTSPRINGDEMO-QuestaGrandeBold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/font-files\/FONTSPRINGDEMO-QuestaGrandeBold.woff",
-		"oF": 0
-		},
-	"\/fonts\/font-files\/FONTSPRINGDEMO-QuestaGrandeBold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/font-files\/FONTSPRINGDEMO-QuestaGrandeBold.woff2",
 		"oF": 0
 		},
 	"\/fonts\/font-files\/ITCFranklinGothicStd-Book.woff": {
@@ -488,16 +508,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/schlemmer-favicon.png": {
-		"ft": 32768,
-		"iS": 1028,
-		"oA": 0,
-		"oAP": "\/images\/schlemmer-favicon.png",
+	"\/images\/schlemmer_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/schlemmer_logo.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/screenshot.png": {
 		"ft": 32768,

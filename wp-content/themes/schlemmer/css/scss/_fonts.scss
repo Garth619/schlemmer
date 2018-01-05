@@ -7,11 +7,12 @@
 }
 
 @font-face {
-    font-family: 'FONTSPRINGDEMO-QuestaGrandeBold';
-    src: url('#{$themePath}fonts/font-files/FONTSPRINGDEMO-QuestaGrandeBold.woff2') format('woff2'),
-        url('#{$themePath}fonts/font-files/FONTSPRINGDEMO-QuestaGrandeBold.woff') format('woff');
+    font-family: '4-questa_grande_bold_31';
+    src: url('#{$themePath}fonts/font-files/4-questa_grande_bold_31-webfont.woff2') format('woff2'),
+         url('#{$themePath}fonts/font-files/4-questa_grande_bold_31-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {

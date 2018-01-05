@@ -35,5 +35,35 @@
 <body <?php body_class(); ?>>
 				
 
+
+<div id="sticky_menu">
+	
+	<div class="sticky_menu_left">
+	
+		<a class="sticky_menu_logo" href="">
+		
+			<img src="<?php bloginfo('template_directory');?>/images/schlemmer_logo.svg"/>
+		
+		</a><!-- sticky_menu_logo -->
+		
+		<a class="sticky_tel" href="tel:(888) 458-8500">(888) 458-8500</a><!-- sticky_tel -->
+	
+	</div><!-- sticky_menu_left -->
+	
+	<div class="menu_prompt sticky">
+				
+		<span class="menu_bars"></span><!-- menu_bars -->
+				
+		<span class="menu_bars"></span><!-- menu_bars -->
+				
+		<span class="menu_bars"></span><!-- menu_bars -->
+				
+		<span class="menu_title">MENU</span><!-- menu_title -->
+				
+	</div><!-- menu_prompt -->
+	
+</div><!-- sticky_menu -->
+
+
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 			
