@@ -47,6 +47,29 @@
 		<div class="selling_points">
 			
 			
+			<div class="single_sp_wrapper">
+				
+				<span class="small_header">Obtained Millions</span><!-- small_header -->
+				
+				<span class="large_header">Obtained over<br/> $20 million</span><!-- large_header -->
+				
+			</div><!-- single_sp_wrapper -->
+			
+			<div class="single_sp_wrapper">
+				
+				<span class="small_header">Personal Attention</span><!-- small_header -->
+				
+				<span class="large_header">Large firm quality small firm service</span><!-- large_header -->
+				
+			</div><!-- single_sp_wrapper -->
+			
+			<div class="single_sp_wrapper">
+				
+				<span class="small_header">Proven Track Record</span><!-- small_header -->
+				
+				<span class="large_header">Over 20 Years<br/> of Success</span><!-- large_header -->
+				
+			</div><!-- single_sp_wrapper -->
 			
 			
 		</div><!-- selling_points -->

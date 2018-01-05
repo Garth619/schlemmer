@@ -8,7 +8,7 @@
 .section_left {
 	background: url(#{$themePath}images/hero-desktop.jpg) top left no-repeat;
 	background-size: cover;
-	width:75%;
+	width:calc(100% - 474px);
 	padding-bottom:200px;
 }
 
@@ -58,7 +58,7 @@ span.get_started_button {
 
 
 .section_right {
-	width:25%;
+	width:475px;
 	background: url(#{$themePath}images/wavy_line_patterns.jpg) top left repeat;
 }
 
@@ -111,8 +111,38 @@ span.get_started_button {
 
 
 .selling_points {
-	
+	padding:340px 14% 0;
 	width:100%;
+	
+}
+
+
+.single_sp_wrapper {
+	margin-bottom:104px;
+	&:before {
+		content:"";
+		width:28px;
+		height:3px;
+		background: $bluedark;
+		display: block;
+		transform: rotate(-60deg);
+		transform-origin: 0 0 0;
+	}
+	span.small_header {
+		font-family: $gothicdemicondensed;
+		color:$bluelight;
+		font-size:15px;
+		text-transform: uppercase;
+		letter-spacing: 7px;
+		display: block;
+		margin:17px 0 11px;
+	}
+	span.large_header {
+		font-family: $questrabold;
+		font-size: 40px;
+		color:$bluedark;
+		line-height: 45px;
+	}
 }
 
 
