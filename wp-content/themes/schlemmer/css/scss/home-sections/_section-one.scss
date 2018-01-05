@@ -1,0 +1,41 @@
+#section_one {
+	display: flex;
+	width:100%;
+}
+
+
+.section_left {
+	background: url(#{$themePath}images/hero-desktop.jpg) top left no-repeat;
+	background-size: cover;
+	width:75%;
+	
+}
+
+a.logo {
+	display: block;
+	margin:45px 0 0 65px;
+	img {
+		width:350px;
+		
+	}
+}
+
+
+.section_one_content {
+	margin:235px 0 0 0;
+	padding:0 125px;
+	max-width: 1370px;
+	span.tagline {
+		color:#fff;
+		font-family: $questrabold;
+		font-size:160px;
+		line-height: 165px;
+	}
+}
+
+
+
+.section_right {
+	width:25%;
+	background: red;
+}
