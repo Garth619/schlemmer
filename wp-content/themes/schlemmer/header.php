@@ -65,5 +65,17 @@
 </div><!-- sticky_menu -->
 
 
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+<div id="nav_overlay">
+	
+	<div class="nav_col">
+		
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+		
+	</div><!-- nav_col -->
+	
+	
+</div><!-- nav_overlay -->
+
+
+
 			

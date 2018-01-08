@@ -11,7 +11,7 @@
 	<div class="section_one_content">
 		
 		
-		<span class="tagline">Fighting for what matters to you</span><!-- tagline -->
+		<span class="tagline">Fighting for what matters <span class="third_line_height">to you</span></span><!-- tagline -->
 		
 		<span class="get_started_button">Lets Get Started </span><!-- get_started_button -->
 		

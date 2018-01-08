@@ -5,14 +5,14 @@
 
 
 .section_left {
-	background: url(#{$themePath}images/hero-desktop.jpg) top left no-repeat;
+	background: url(#{$themePath}images/hero-desktop.jpg) top center no-repeat;
 	background-size: cover;
 	width:calc(100% - 474px);
 	padding-bottom:200px;
 }
 
 a.logo {
-	display: block;
+	display: inline-block;
 	margin:45px 0 0 65px;
 	img {
 		width:350px;
@@ -147,6 +147,21 @@ span.get_started_button {
 }
 
 
+@media screen and (max-width: 1750px) {
+	
+	
+	.section_one_content {
+		
+		span.tagline {
+			max-width: 675px;
+		}
+	} 
+	
+	
+	
+} /* Media Query */
+
+
 
 @media screen and (max-width: 1450px) {
 	
@@ -155,9 +170,12 @@ span.get_started_button {
 	
 .section_one_content {
 	padding: 0 20px 0 82px;
+	margin: 140px 0 0 0;
 	span.tagline {
 		font-size:130px;
 		line-height: 135px;
+		max-width: 819px;
+		letter-spacing: -1px;
 	}
 }
 
@@ -214,6 +232,8 @@ span.get_started_button {
 @media screen and (max-width: 1165px) {
 	
 	
+	
+	
 .section_one_content {
 	margin: 125px 0 0 0;
 	left:0px;
@@ -222,17 +242,26 @@ span.get_started_button {
 
 .section_left {
 	padding-bottom: 144px;
+	width:calc(100% - 430px);
+	// background-position: -560px top;
+}
+
+.section_right {
+	width:430px;
 }
 
 
 .selling_points {
-	padding: 185px 14% 0;
+	padding: 185px 10px 0 14%;
 }
 
 
-.single_sp_wrapper {
-  margin-bottom: 90px;
-}
+.single_sp_wrapper  {
+	 margin-bottom: 90px;
+		span.large_header {
+			letter-spacing: 0px;
+		}
+	}
 	
 	
 	
@@ -244,10 +273,117 @@ span.get_started_button {
 @media screen and (max-width: 1060px) {
 	
 	.section_one_content {
-		margin:98px 0 0 0;
+		max-width: 730px;
+		margin: 73px auto 0 ;
+		padding-left:0;
+		padding-right:0;
+		max-width: 635px;
+		span.tagline {
+			font-size:106px;
+			line-height: 109px;
+			span.third_line_height {
+				display: inline-block;
+				top:-10px;
+				position: relative;
+			}
+		}
+	}
+	
+	
+	
+	#section_one {
+		margin:107px 0 0 0;
+	}
+	
+	a.logo {
+		display: none;
+	}
+	
+	.section_left {
+		width:100%;
+		background: url(#{$themePath}images/hero-tablet.jpg) top center no-repeat;
+		background-size:cover;
+		min-height: 590px;
+		padding-bottom: 97px;
+	}
+	
+	
+	
+	span.get_started_button {
+    margin: 29px 0 0 0;
+   }
+	
+	
+	
+	.section_right {
+		display: none;
 	}
 	
 
+
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	#section_one {
+    margin: 80px 0 0 0;
+	}
+	
+	
+	a.logo {
+		display:block;
+		width: 256px;
+		margin: 14px auto 0px;
+		img {
+			width: 100%;
+		}
+	}
+	
+	.section_left {
+		padding-bottom: 0;
+		min-height: 529px;
+	}
+	
+	
+	
+	
+	.section_one_content {
+		margin: 22px auto 0;
+		text-align: center;
+	 	span.tagline {
+		 	font-size: 68px;
+		 	line-height: 65px;
+		 	display: block;
+		 	margin-left:auto;
+		 	margin-right: auto;
+		  max-width: 258px;
+		 	text-align: left;
+		 	span.third_line_height {
+			 	top:0;
+		 	}
+	 	}
+	}
+	
+	
+	span.get_started_button {
+		font-size: 16px;
+		padding: 24px 31px 20px;
+		margin: 37px auto 0;
+	}
+	
+	
+	.section_left {
+		background: url(#{$themePath}images/hero-mobile.jpg) top center no-repeat;
+	}
+	
+	
+	
+	
 	
 } /* Media Query */
 

@@ -44,7 +44,7 @@ a.sticky_tel {
 	color:$bluelight;
 	font-size:32px;
 	text-decoration: none;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 
@@ -56,5 +56,46 @@ a.sticky_tel {
 		}
 	}
 		
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.sticky_menu_left {
+		justify-content: center;
+		width: calc(100% - 95px);
+	}
+	
+	a.sticky_menu_logo {
+		display: none;
+	}
+	
+	
+	a.sticky_tel {
+		margin-top: 8px;
+		font-size: 29px;
+	}
+	
+	
+	.menu_prompt.sticky {
+		padding: 18px 0 12px;
+		width: 95px;
+		span.menu_bars {
+			height:3px;
+			margin-bottom: 6px;
+			width: 43px;
+		}
+		span.menu_title {
+			font-size: 19px;
+			margin: 10px 0 0;
+		}
+	}
+	
+	
+	
+	
 	
 } /* Media Query */
