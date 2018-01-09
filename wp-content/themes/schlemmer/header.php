@@ -67,12 +67,29 @@
 
 <div id="nav_overlay">
 	
-	<div class="nav_col">
+	<div class="overlay_close">
 		
-		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+		<div></div>
 		
-	</div><!-- nav_col -->
+		<div></div>
+		
+	</div><!-- overlay_close-->
 	
+	<div class="nav_col_wrapper">
+		
+		<div class="nav_col">
+		
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+		
+		</div><!-- nav_col -->
+	
+		<div class="nav_col">
+		
+			<div class="sub_menu_container"></div><!-- sub_menu_container -->
+		
+		</div><!-- nav_col -->
+		
+	</div><!-- nav_col_wrapper -->
 	
 </div><!-- nav_overlay -->
 

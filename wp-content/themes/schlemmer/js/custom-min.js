@@ -1,1 +1,1 @@
-jQuery(document).ready(function(){});
+jQuery(document).ready(function(){$(".menu_prompt").on("click",function(n){$("\t#nav_overlay").toggleClass("open")}),$(".overlay_close").on("click",function(n){$("#nav_overlay").toggleClass("open")}),$("ul#menu-menu-1 > li.menu-item-has-children > a").on("click",function(n){$(".sub_menu_container").empty(),$(this).next("ul.sub-menu").clone().appendTo(".sub_menu_container").fadeIn(500)})});

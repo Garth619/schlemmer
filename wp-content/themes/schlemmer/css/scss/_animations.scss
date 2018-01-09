@@ -1,0 +1,32 @@
+// Dropdown Nav
+
+
+
+#nav_overlay {
+	transition: all 650ms cubic-bezier(.17,.66,.34,.98);
+	transform: translateX(100%);
+}
+
+
+#nav_overlay.open {
+	transform: translateX(0);
+}
+
+
+#nav_overlay.open.close {
+	transform: translateX(100%);
+}
+
+
+.overlay_close {
+	opacity: 0;
+	transition: all 500ms ease-in-out;
+	transition-delay: 800ms;
+}
+
+
+#nav_overlay.open {
+	.overlay_close {
+		opacity: 1;
+	}
+}
