@@ -34,14 +34,17 @@
 		list-style: none;
 		margin:0;
 		li {
+			&:hover {
+				a {
+					color:$bluelight;
+				}
+			}
 			a {
 				text-decoration: none;
 				color:#06222d;
 				cursor: pointer;
 				transition: all .2s ease-in-out;
-				&:hover {
-					color:$bluelight;
-				}
+				
 			}
 		}
 	}
@@ -61,6 +64,13 @@
 				content: "0"counter(mycounter);
 				counter-increment: mycounter;
 				color:$greydark;
+				transition: all .2s ease-in-out;
+				cursor: pointer;
+			}
+			&:hover {
+				&:after {
+					color:$bluelight;
+				}
 			}
 		}
 		li {
@@ -103,12 +113,17 @@
 	top:50px;
 	right:40px;
 	cursor: pointer;
-	// background: red;
+	&:hover {
+		div {
+			background: $bluelight;
+		}
+	}
 	div {
 		display: block;
 		width:45px;
 		height:6px;
 		background: #06222d;
+		transition: all .2s ease-in-out;
 		&:first-of-type {
 			transform-origin: 26px 6px 0;
 			transform: rotate(-45deg);

@@ -30,3 +30,77 @@
 		opacity: 1;
 	}
 }
+
+
+// Nav 
+
+.nav_col ul.menu li {
+	opacity: 0;
+}
+
+
+
+#nav_overlay.open {
+	.nav_col ul.menu li {
+		animation-name: bullet_fade, bullet_move;
+		animation-duration: 800ms, 1000ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98); ;
+		&:nth-of-type(1) {
+			animation-delay: 800ms;
+		}
+		&:nth-of-type(2) {
+			animation-delay: 850ms;
+		}
+		&:nth-of-type(3) {
+			animation-delay: 900ms;
+		}
+		&:nth-of-type(4) {
+			animation-delay: 950ms;
+		}
+		&:nth-of-type(5) {
+			animation-delay: 1000ms;
+		}
+		&:nth-of-type(6) {
+			animation-delay: 1050ms;
+		}
+		&:nth-of-type(7) {
+			animation-delay: 1100ms;
+		}
+		&:nth-of-type(8) {
+			animation-delay: 1150ms;
+		}
+		&:nth-of-type(9) {
+			animation-delay: 1200ms;
+		}
+		&:nth-of-type(10) {
+			animation-delay: 1250ms;
+		}
+		&:nth-of-type(11) {
+			animation-delay: 1300ms;
+		}
+		&:nth-of-type(12) {
+			animation-delay: 1350ms;
+		}
+	}
+}
+
+@keyframes bullet_fade {
+  from {
+    opacity: 0;
+ 	}
+ 	to {
+   opacity: 1;
+  }
+}
+
+
+
+@keyframes bullet_move {
+  from {
+    transform: translateX(-55px);
+ 	}
+ 	to {
+   	transform: translateX(0px);
+  }
+}
