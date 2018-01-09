@@ -32,6 +32,87 @@
 }
 
 
+// Close Button
+
+
+
+.overlay_close {
+	div {
+		&:first-of-type {
+			// transform: rotate(0deg);
+		}
+		&:last-of-type {
+			// transform: rotate(0deg);
+		}
+	}
+}
+
+
+
+
+#nav_overlay.open {
+	.overlay_close {
+		div {
+			animation-duration: 800ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 1s;
+			&:first-of-type {
+				animation-name: firstx_rotate;
+			}
+			&:last-of-type {
+				animation-name: lastx_rotate;
+			}
+		}
+	}
+}
+
+
+
+
+@keyframes firstx_rotate {
+  from {
+    transform: rotate(0deg);
+ 		
+  }
+
+  to {
+    
+    transform: rotate(-45deg);
+  }
+}
+
+
+@keyframes lastx_rotate {
+  from {
+    transform: rotate(0deg);
+ 		
+  }
+
+  to {
+    
+    transform: rotate(45deg);
+  }
+}
+
+
+
+
+.video_fade {
+	position: relative;
+	animation-name: video_fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 1s;
+  
+  // have the delay be the class being after load in jquery
+
+ }
+
+
+
+
 // Nav 
 
 .nav_col ul.menu li {

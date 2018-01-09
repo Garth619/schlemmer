@@ -78,12 +78,14 @@
 	<div class="nav_col_wrapper">
 		
 		<div class="nav_col">
-		
+			
 			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 		
 		</div><!-- nav_col -->
 	
 		<div class="nav_col">
+			
+			<span class="mobile_back">Back</span><!-- mobile_back -->
 		
 			<div class="sub_menu_container"></div><!-- sub_menu_container -->
 		

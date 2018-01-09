@@ -9,6 +9,9 @@ jQuery(document).ready(function(){
 	  
 	
 		$('	#nav_overlay').toggleClass('open');
+		
+		
+		$('.overlay_close').fadeIn(100);
 	
 	
 	});
@@ -18,6 +21,9 @@ jQuery(document).ready(function(){
 	  
 	
 		$('#nav_overlay').toggleClass('open');
+		
+		
+		$(this).fadeOut(100);
 	
 	
 	});
@@ -78,13 +84,22 @@ jQuery(document).ready(function(){
 	
 	});
 	
+	
+
+	
+	
+	$('span.mobile_back').on('click', function(e) {
+	  
+			
+			$('.nav_col:last-of-type').fadeOut(200);
+			 			
+			$('.nav_col:first-of-type').delay(500).fadeIn(200);		
+	
+	
+	
+	});
+	
   
-
-
-
-
-
-
 
 
 

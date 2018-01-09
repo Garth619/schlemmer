@@ -146,6 +146,11 @@
 }
 
 
+span.mobile_back {
+	display: none;
+}
+
+
 
 @media screen and (max-width: 1680px) {
 	
@@ -195,10 +200,17 @@
 	
 	
 	
+span.mobile_back {
+	display: block;
+	color:$bluelight;
+	font-family: $questrabold;
+	text-transform: none;
+	font-size:26px;
+	margin-bottom:57px;
+	letter-spacing: 1px;
+}
 	
 	.nav_col {
-		
-		
 		&:first-of-type {
 			width:100%;
 		}
