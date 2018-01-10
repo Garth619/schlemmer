@@ -2,7 +2,7 @@
 	
 	<div class="section_left">
 		
-	<a class="logo" href="">
+	<a class="logo" href="<?php bloginfo('url');?>">
 		
 		<img src="<?php bloginfo('template_directory');?>/images/schlemmer_logo.svg"/>
 		

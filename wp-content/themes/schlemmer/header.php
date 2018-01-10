@@ -40,7 +40,7 @@
 	
 	<div class="sticky_menu_left">
 	
-		<a class="sticky_menu_logo" href="">
+		<a class="sticky_menu_logo" href="<?php bloginfo('url');?>">
 		
 			<img src="<?php bloginfo('template_directory');?>/images/schlemmer_logo.svg"/>
 		
@@ -85,7 +85,7 @@
 	
 		<div class="nav_col">
 			
-			<span class="mobile_back">Back</span><!-- mobile_back -->
+<!-- 			<span class="mobile_back">Back</span> -->
 		
 			<div class="sub_menu_container"></div><!-- sub_menu_container -->
 		

@@ -36,17 +36,6 @@
 
 
 
-.overlay_close {
-	div {
-		&:first-of-type {
-			// transform: rotate(0deg);
-		}
-		&:last-of-type {
-			// transform: rotate(0deg);
-		}
-	}
-}
-
 
 
 
@@ -56,7 +45,7 @@
 			animation-duration: 800ms;
 			animation-fill-mode: both;
 			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
-			animation-delay: 1s;
+			animation-delay: 800ms;
 			&:first-of-type {
 				animation-name: firstx_rotate;
 			}
@@ -95,20 +84,6 @@
   }
 }
 
-
-
-
-.video_fade {
-	position: relative;
-	animation-name: video_fade;
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 1s;
-  
-  // have the delay be the class being after load in jquery
-
- }
 
 
 
@@ -376,6 +351,67 @@
 }
 
 
+
+/*
+.nav_col.hide {
+		animation-name: nav_col_fade;
+	  animation-duration: 500ms;
+	  animation-fill-mode: both;
+	  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+	  
+	}
+	
+	.nav_col.show {
+		
+		display: block;
+		
+		animation-name: nav_col_show;
+	  animation-duration: 1400ms;
+	  animation-fill-mode: both;
+	  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+	  animation-delay: 1s;
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	@keyframes nav_col_fade {
+	  from {
+	    opacity: 1;
+	 		
+	 		
+	  }
+	
+	  to {
+	    opacity: 0;
+	   
+	    
+	  }
+	}
+	
+	
+	@keyframes nav_col_show {
+	  from {
+	    opacity: 0;
+	 		
+	 		
+	  }
+	
+	  to {
+	    opacity: 1;
+	   
+	    
+	  }
+	}
+	
+	
+*/
+	
 
 
 

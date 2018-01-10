@@ -2,6 +2,9 @@ jQuery(document).ready(function(){
 	
 	
 	// Menu
+	
+	
+	
 
 	
 	
@@ -12,6 +15,9 @@ jQuery(document).ready(function(){
 		
 		
 		$('.overlay_close').fadeIn(100);
+		
+		
+		
 	
 	
 	});
@@ -24,12 +30,18 @@ jQuery(document).ready(function(){
 		
 		
 		$(this).fadeOut(100);
+		
+		$(".sub_menu_container").empty();
 	
 	
 	});
 	
 	
 	
+		
+		
+		
+		
 		
 		var windowWidth = $(window).width();
 	
@@ -38,6 +50,12 @@ jQuery(document).ready(function(){
 		function checkWidthmenu() {
 	    
 	    if (windowWidth < 1060) {
+		    
+		    	
+		    	$('<li class="mobile_back"><a>Back</a></li>').prependTo( "ul.sub-menu" );
+		    
+		    
+		    	$('.nav_col:last-of-type').hide();
 	        
 	      
 	     		$('ul#menu-menu-1 > li.menu-item-has-children > a').on('click', function(e) {
@@ -45,8 +63,51 @@ jQuery(document).ready(function(){
 			 			$('.nav_col:first-of-type').fadeOut(200);
 			 			
 			 			$('.nav_col:last-of-type').delay(500).fadeIn(200);
+			 			
+			 			
+			 			// $('.mobile_back').fadeIn(200);		
+			 			
 	      
 	      	});
+	      	
+	      
+	      
+					$('.overlay_close').on('click', function(e) {
+	  
+	
+					
+							$('.nav_col:last-of-type').delay(500).fadeOut(200);
+			 			
+							$('.nav_col:first-of-type').delay(500).fadeIn(200);
+							
+							
+							$('.mobile_back').fadeOut(200);
+							
+						
+		
+					});	
+					
+					
+					
+					
+					
+					
+					
+					
+					$(document).on('click','.mobile_back', function(e) {
+	  
+			
+								$('.nav_col:last-of-type').fadeOut(200);
+			 			
+								$('.nav_col:first-of-type').delay(500).fadeIn(200);
+	      		
+	
+	
+					});
+					
+					
+					
+				
 	    	
 	    	   		
 	    		
@@ -78,6 +139,8 @@ jQuery(document).ready(function(){
 		 $(".sub_menu_container").empty();
 		
 		 $(this).next('ul.sub-menu').clone().appendTo('.sub_menu_container').addClass('open');
+		 
+		 $(this).addClass('active');
 	
 		// current $('ul#menu-menu-1 > li.current-menu-parent > a').next('ul.sub-menu').clone().appendTo('.sub_menu_container').show();
 	
@@ -88,16 +151,7 @@ jQuery(document).ready(function(){
 
 	
 	
-	$('span.mobile_back').on('click', function(e) {
-	  
-			
-			$('.nav_col:last-of-type').fadeOut(200);
-			 			
-			$('.nav_col:first-of-type').delay(500).fadeIn(200);		
 	
-	
-	
-	});
 	
   
 
