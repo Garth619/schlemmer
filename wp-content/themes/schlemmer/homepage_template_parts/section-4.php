@@ -41,7 +41,7 @@
 			
 			<div class="single_testimonial_slide">
 				
-				<span class="large_header">Enim ad minim veniam, quis nost</span><!-- large_header -->
+				<span class="large_header">Enim ad minim ven iam, qui s nost</span><!-- large_header -->
 				
 				<span class="slide_content">  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</span><!-- slide_content -->
 				
@@ -54,7 +54,7 @@
 			
 			<div class="single_testimonial_slide">
 				
-				<span class="large_header">Enim ad minim veniam, qui  veniam qui veniam quis nost</span><!-- large_header -->
+				<span class="large_header">Enim ad minim ven iam, qui  ven iam qui veniam quis nost</span><!-- large_header -->
 				
 				<span class="slide_content">  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud d minim veniam, quis nosd minim veniam, quis nosd minim veniam, quis nos exercitation ullamco laboris nisi ut aliquip ex ea</span><!-- slide_content -->
 				
