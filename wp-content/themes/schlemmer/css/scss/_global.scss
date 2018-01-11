@@ -28,6 +28,45 @@ img.aligncenter {
 }
 
 
+.content {
+	color:#fff;
+	font-family: $gothicbook;
+	font-size:18px;
+	line-height: 36px;
+	p, ul {
+		margin-bottom:35px;
+	}
+	h2 {
+		color:$bluelight;
+		font-size:35px;
+		font-weight: 300;
+		font-style: normal;
+		display: block;
+		padding:14px 0 5px;
+		line-height: 39px;
+		font-family:$questrabold;
+	}
+}
+
+
+@media screen and (max-width: 1375px) {
+	
+	.content {
+   	font-size:16px;
+    line-height: 30px;
+    p {
+	    margin-bottom: 30px;
+    }
+    h2 {
+	    font-size: 35px;
+	    padding-top:2px;
+    }
+  }
+	
+	
+	
+	
+} /* Media Query */
 
 @media screen and (max-width: 767px) {
 	
