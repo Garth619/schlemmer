@@ -4,7 +4,7 @@
 	<div class="section_five_inner">
 		
 		
-		<span class="large_header">In the past 5<br/> years our firm has won over $20 million </span><!-- large_header -->
+		<span class="large_header">In the past 5<br/> years our firm has won over $20&nbsp;million </span><!-- large_header -->
 		
 		<div class="section_five_content">
 			

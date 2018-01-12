@@ -171,6 +171,27 @@ jQuery(document).ready(function(){
 		nextArrow:'.next_back_wrapper .next'
 	});
 	
+	
+// Case Results
+
+
+$('.case_results_wrapper').slick({
+  	infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		mobileFirst: true,
+		dots:true,
+		responsive: [
+    {
+      breakpoint: 1060,
+      	settings: "unslick"
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+	});
+	
   
 
 
