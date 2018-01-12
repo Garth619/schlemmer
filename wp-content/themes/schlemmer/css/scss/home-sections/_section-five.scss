@@ -1,0 +1,22 @@
+#section_five {
+	width:100%;
+	height:1000px;
+	background: url(#{$themePath}images/wavy_line_patterns.jpg) top left repeat;
+}
+
+
+.section_five_inner {
+	max-width:1450px;
+	margin:0 auto;
+	padding:230px 0 0;
+	width:100%;
+	text-align: center;
+	span.large_header {
+		color:$bluedark;
+		font-family: $questrabold;
+		font-size: 91px;
+		line-height: 86px;
+		max-width: 985px;
+		display: inline-block;
+	}
+}
