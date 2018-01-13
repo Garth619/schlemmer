@@ -173,6 +173,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/home-sections\/_section-six.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/home-sections\/_section-six.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/home-sections\/_section-three.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -360,6 +373,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-5.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-6.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-6.php",
 		"oF": 0
 		},
 	"\/images\/attorney-paul-schlemmer-desktop.jpg": {
@@ -612,6 +632,16 @@
 		"iS": 534033,
 		"oA": 0,
 		"oAP": "\/images\/int_header_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/new-tablet.jpg": {
+		"ft": 16384,
+		"iS": 52376,
+		"oA": 0,
+		"oAP": "\/images\/new-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

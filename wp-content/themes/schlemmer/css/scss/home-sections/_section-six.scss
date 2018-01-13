@@ -1,0 +1,274 @@
+#section_six {
+	width:100%;
+	display: flex;
+}
+
+
+.sec_six_att_wrapper {
+	width:45%;
+	background: url(#{$themePath}images/attorney-paul-schlemmer-desktop.jpg) top left no-repeat;
+	background-size:cover;
+	height:1150px;
+	img {
+		width: 100%;
+		height:auto;
+		display: block;
+	}
+}
+
+
+.sec_six_content_wrapper {
+	width:55%;
+	background: url(#{$themePath}images/stardust_texture.jpg) top left repeat;
+	padding:125px 60px 0;
+	.sec_six_title_wrapper {
+		margin-left:-350px;
+	}
+	span.small_header {
+		color:$bluelight;
+		display: block;
+		font-size: 20px;
+		font-family: $gothicdemicondensed;
+		text-transform: uppercase;
+		letter-spacing: 19px;
+		margin:0 0 23px;
+	}
+	span.large_header {
+		font-family: $questrabold;
+		font-size: 160px;
+		color:#fff;
+		line-height: 144px;
+		text-transform: uppercase;
+		display: block;
+		margin-left:80px;
+	}
+	.sec_six_content {
+		line-height: 34px;
+		margin:105px auto 0;
+		max-width: 685px;
+	}
+	span.att_name {
+		color:$bluelight;
+		font-family:$gothicdemicondensed;
+		text-transform: uppercase;
+		font-size: 17px;
+		display: block;
+		letter-spacing: 8.5px;
+		position: relative;
+		padding-top:17px;
+		&:before {
+			content:"";
+			width:29px;
+			height:3px;
+			display: block;
+			background: $bluelight;
+			transform: rotate(-60deg);
+			position: absolute;
+			top:24px;
+			left:-35px;
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 1695px) {
+	
+	
+.sec_six_att_wrapper {
+	background: url(#{$themePath}images/attorney-paul-schlemmer-desktop.jpg) top center no-repeat;
+	background-size:cover;
+	height:1130px;
+}
+
+
+.sec_six_content_wrapper {
+	.sec_six_title_wrapper {
+		 margin-left: -40%;
+	}
+	 span.large_header {
+		 font-size:135px;
+		 line-height: 119px;
+	 }
+}
+
+
+.sec_six_content_wrapper {
+	.sec_six_content {
+		 margin: 116px auto 0;
+		 max-width: 675px;
+	}
+} 
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1380px) {
+	
+	
+.sec_six_content_wrapper {
+	.sec_six_title_wrapper {
+		 margin-left: -44%;
+	}
+	 span.large_header {
+		 
+	 }
+}
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1335px) {
+	
+	
+	
+.sec_six_content_wrapper {
+	.sec_six_title_wrapper {
+		 margin-left: -46%;
+	}
+	 span.large_header {
+		 
+	 }
+}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1315px) {
+	
+	
+	
+.sec_six_content_wrapper {
+	.sec_six_title_wrapper {
+		 margin-left: -50%;
+	}
+	 span.large_header {
+		 
+	 }
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1290px) {
+	
+	
+.sec_six_att_wrapper {
+	width:50%;
+	height:980px;
+}
+	
+.sec_six_content_wrapper {
+	padding: 84px 60px 0;
+	width:50%;
+
+	.sec_six_title_wrapper {
+		margin-left: -68%;
+	}
+	 span.large_header {
+		 font-size:106px;
+		 line-height: 94px;
+	 }
+}
+	
+	.sec_six_content_wrapper {
+		.sec_six_content {
+			 margin: 70px auto 0;
+			 line-height: 30px;
+			 max-width: 408px;
+		}
+	} 
+	
+	   
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+#section_six {
+	background: url(#{$themePath}images/stardust_texture.jpg) top left repeat;
+	
+}	
+	
+	
+	
+.sec_six_content_wrapper {
+	padding: 79px 60px 0;
+	.sec_six_content {
+		margin: 38px auto 0;
+	}
+	.sec_six_title_wrapper {
+		margin-left:-300px;
+	}
+	span.large_header {
+   font-size: 98px;
+   line-height: 84px;
+	}
+	span.small_header {
+		margin: 0 0 14px;
+	}
+}
+
+
+
+.sec_six_att_wrapper {
+	height:675px;
+	width:382px;
+	margin-top:245px;
+	margin-bottom:75px;
+	background: url(#{$themePath}images/new-tablet.jpg) top left no-repeat;
+}
+
+
+.sec_six_content_wrapper {
+	width:calc(100% - 384px);
+	background:none;
+}
+
+
+
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 930px) {
+	
+	
+	.sec_six_content_wrapper {
+		padding: 79px 35px 0;
+		.sec_six_title_wrapper {
+    	margin-left: -368px;
+		}
+		span.large_header {
+			margin-left: 65px;
+		}
+		span.att_name {
+			margin-left: 41px;
+			padding-top: 0;
+			&:before {
+				top: 4px;
+			}
+		}
+	} 
+	
+	
+	
+} /* Media Query */
+
+
