@@ -3,7 +3,7 @@
 	
 	<div class="sec_six_att_wrapper">
 		
-		
+		<img class="mobile_sec_six" src="<?php bloginfo('template_directory');?>/images/new-mobile.jpg"/>
 		
 	</div><!-- section_six_att_wrapper -->
 	
