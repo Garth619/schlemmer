@@ -192,6 +192,69 @@ $('.case_results_wrapper').slick({
   ]
 	});
 	
+	
+	
+// Form Focus
+
+
+if ($('.form_wrapper input').is(':focus')) {
+
+
+	$('.form_wrapper ul li').addClass('garrett');
+	
+	//$(this).parents('li').addClass('garrett');
+
+
+}
+
+
+
+/*
+
+$('.form_wrapper input, .form_wrapper textarea').on('click', function(e) {
+  
+  
+  $('.form_wrapper ul li').removeClass('focused');
+  
+	$(this).parents('li').addClass('focused');
+	
+
+
+
+
+});
+*/
+
+
+
+
+$('.form_wrapper input, .form_wrapper textarea').on("focus", function(){
+   
+   
+   $('.form_wrapper ul li').removeClass('focused');
+  
+	 $(this).parents('li').addClass('focused');
+	 
+	 $('li.focused').show(function(){
+    	document.body.addEventListener('click', boxCloser, false);
+  	});
+   
+   
+});
+
+
+
+
+$(document).click(function(event){
+    
+    if (!($(event.target).closest(".focused").length)) {
+        
+        
+        $(".focused").removeClass("focused");
+    
+    }
+});
+	
   
 
 
