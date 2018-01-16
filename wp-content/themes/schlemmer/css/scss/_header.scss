@@ -1,11 +1,14 @@
-#sticky_menu {
-	display: none;
+body.page-template-page-home {
+	#sticky_menu {
+		display: none;
+	}
 }
 
 
 
-body:not(.page-template-page-home) {
+#sticky_menu {
 	display: flex;
+	width:100%;
 }
 
 
@@ -106,12 +109,16 @@ a.sticky_tel {
 
 @media screen and (max-width: 1060px) {
 	
-	
+	body.page-template-page-home {
+	#sticky_menu {
+		display: flex;
+	}
+}
 	
 	
 	#sticky_menu {
-		display: flex;
-		width:100%;
+		
+		
 		
 /*
 		position: fixed;

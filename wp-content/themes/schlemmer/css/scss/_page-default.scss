@@ -1,0 +1,139 @@
+.banner {
+	width:100%;
+	height:300px;
+	background: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(#{$themePath}images/int_header_3.jpg) top center  no-repeat;
+	background-size: cover;
+	span.banner_title {
+		color:#fff;
+		text-transform: uppercase;
+		font-size: 50px;
+		font-family:$gothicdemicondensed;
+		letter-spacing: 27px;
+	}
+}
+
+
+
+.innner_default {
+	padding:80px 0;
+	max-width:1660px;
+	margin-left:auto;
+	margin-right:auto;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+}
+
+
+.sidebar {
+	float:left;
+	width:475px;
+}
+
+
+span.sidebar_title {
+	color:$bluelight;
+	text-transform: lowercase;
+	font-family: $questrabold;
+	font-size: 40px;
+	position: relative;
+	margin-bottom:45px;
+	display: block;
+	&:before {
+		content:"";
+		display: block;
+		width:27px;
+		height:3px;
+		background: $bluelight;
+		transform: rotate(-60deg);
+		display: inline-block;
+		position: relative;
+		top:-10px;
+		margin-right:8px;
+/*
+		position: absolute;
+		top:22px;
+		left:-37px;
+*/
+	}
+}
+
+
+.sidebar {
+	
+	ul {
+		list-style: none;
+		margin:0px 0 0;
+		li {
+			font-size: 14px;
+			text-transform: uppercase;
+			font-family:$gothicdemi;
+			letter-spacing: 2px;
+			a {
+				color:$bluedark;
+				text-decoration: none;
+				transition: all .2s ease-in-out;
+				cursor: pointer;
+				&:hover {
+					color:$bluelight;
+				}
+			}
+		}
+	}
+	ul#menu-practice-areas {
+		padding:10px 0;
+		> li:last-of-type {
+				border-bottom:1px solid #9e9e9e;
+		}
+		> li {
+				> a {
+					border-top:1px solid #9e9e9e;
+					display: block;
+					padding:24px 68px 24px 30px;
+					transition: all 500ms linear;
+				}
+				> a.active {
+					background: $bluelight;
+					color:#fff;
+					position: relative;
+					&:after {
+						content:"";
+						width:28px;
+						height:3px;
+						background: #fff;
+						display: block;
+						position: absolute;
+						top:27px;
+						right:30px;
+					}
+				}
+		}
+	}
+	ul.sub-menu {
+		background: #f7f7f7;
+		padding:0px 0px;
+		display: none;
+		> li {
+				padding-bottom:39px;
+				padding:0 60px 39px;
+		}
+		>li:first-of-type {
+				padding-top:50px;
+		}
+		>li:last-of-type {
+				padding-bottom:50px;
+		}
+	}
+	ul.sub-menu.open {
+		padding:0px 0px;
+		> li {
+				
+		}
+	}
+}

@@ -34,7 +34,7 @@
 
 <body <?php body_class(); ?>>
 				
-
+<header>
 
 <div id="sticky_menu">
 	
@@ -105,6 +105,6 @@
 	
 </div><!-- nav_overlay -->
 
-
+<header>
 
 			

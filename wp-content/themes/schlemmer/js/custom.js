@@ -256,7 +256,23 @@ $(document).click(function(event){
 });
 	
   
+// sidebar
 
+
+
+
+
+$('.sidebar ul#menu-practice-areas > li.menu-item-has-children > a').on('click', function(e) {
+  
+
+	$(this).next('ul.sub-menu').toggleClass('open');
+	
+	$(this).next('ul.sub-menu').slideToggle();
+	
+	$(this).toggleClass('active');
+
+
+});
 
 
 
