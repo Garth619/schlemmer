@@ -82,6 +82,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_nav.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -117,19 +130,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_slick.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/scss\/_sticky_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/scss\/_sticky_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

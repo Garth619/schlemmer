@@ -1,0 +1,211 @@
+#sticky_menu {
+	display: block;
+	display: flex;
+}
+
+
+
+.sticky_menu_left {
+	flex-grow:1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 16px 44px 16px 25px;
+	margin-left: 40px;
+}
+
+
+
+a.sticky_menu_logo {
+	display: block;
+	img.logo_mobile {
+		display: none;
+	}
+	img.logo_desktop {
+		width:306px;
+		height: 90px;
+	}
+}
+
+
+
+
+a.sticky_tel {
+	font-family:$gothicdemicondensed;
+	color:$bluedark;
+	font-size:32px;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+
+.menu_get_started {
+	background: url(#{$themePath}images/stardust_texture.jpg) top left ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 319px;
+	flex-shrink: 0;
+	span {
+		color:$bluelight;
+		font-family:$questrabold;
+		font-size:34px;
+	}
+}
+
+
+
+
+.menu_prompt.sticky {
+		flex-basis: 141px;
+		flex-shrink: 0;
+		width:auto;
+		span.menu_bars {
+			
+		}
+		span.menu_title {
+			
+		}
+	}
+	
+	
+	
+@media screen and (max-width: 1450px) {
+	
+	.sticky_menu_left {
+		margin-left: 32px;
+	}
+	   
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	.sticky_menu_left {
+    margin-left: 25px;
+	}
+	
+	a.sticky_tel {
+		display: none;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+	
+	
+	#sticky_menu {
+		
+		width:100%;
+		
+		position: fixed;
+		top:0;
+		left:0;
+		z-index:100;
+	}
+	
+	
+
+	.sticky_menu_left {
+		
+		background: url(#{$themePath}images/stardust_texture.jpg) top left ;
+		margin-left:0;
+		
+		padding: 0px 35px 4px 33px;
+		
+		//padding:0 30px 0 25px;
+	}
+
+	
+	
+a.sticky_menu_logo {
+	
+	padding:19px 0 9px;
+	img.logo_desktop {
+		display: none;
+	}
+	img.logo_mobile {
+		width:245px;
+		height: 76px;
+		display: block;
+	}
+}
+
+
+a.sticky_tel {
+	color:$bluelight;
+	font-size:32px;
+	letter-spacing: 1px;
+	display: block;
+	padding-top: 12px;
+}
+
+
+.menu_get_started {
+	display: none;
+}
+
+
+
+
+	.menu_prompt.sticky {
+		padding:25px 0 0 0;
+		span.menu_title {
+			margin: 14px 0 0;
+		}
+	}
+		
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.sticky_menu_left {
+		justify-content: center;
+		
+	}
+	
+	a.sticky_menu_logo {
+		display: none;
+	}
+	
+	
+	a.sticky_tel {
+		
+		font-size: 29px;
+	}
+	
+	
+
+	.menu_prompt.sticky {
+		padding: 18px 0 12px;
+		flex-basis: 95px;
+		span.menu_bars {
+			height:3px;
+			margin-bottom: 6px;
+			width: 43px;
+		}
+		span.menu_title {
+			font-size: 19px;
+			margin: 10px 0 0;
+		}
+	}
+
+	
+	
+	
+	
+	
+} /* Media Query */

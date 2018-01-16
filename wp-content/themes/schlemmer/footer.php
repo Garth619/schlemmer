@@ -37,7 +37,7 @@
 			
 				<span class="">the schlemmer law firm</span>
 				
-				<a class="" href="https://www.google.com/maps/place/830+3rd+Ave,+New+York,+NY+10022/data=!4m2!3m1!1s0x89c258e32e3be2e7:0xb68989f52aaceec5?sa=X&ved=0ahUKEwj8-9_T3NrYAhVY6WMKHb3WCXkQ8gEIKDAA" target="_blank">830 3rd avenue, 5th floor New York, NY 10022</a>
+				<a class="address_link" href="https://www.google.com/maps/place/830+3rd+Ave,+New+York,+NY+10022/data=!4m2!3m1!1s0x89c258e32e3be2e7:0xb68989f52aaceec5?sa=X&ved=0ahUKEwj8-9_T3NrYAhVY6WMKHb3WCXkQ8gEIKDAA" target="_blank">830 3rd avenue, 5th floor New York, NY 10022</a>
 			
 			</div><!-- loc_wrapper -->
 			
@@ -97,6 +97,22 @@
 		</div><!-- address_image -->
 		
 	</section><!-- location_section -->
+	
+	
+	<div class="copyright">
+		
+		<ul>
+			
+			<li>Copyright &copy; 2017 - The schlemmer firm llc</li>
+			<li><a href="">disclaimer</a></li>
+			<li><a href="">sitemap</a></li> 
+			<li><a href="">google+</a></li>
+			
+		</ul>
+		
+		<a class="ilawyer_marketing" href="//ilawyermarketing.com" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/ilawyer-logo.svg"/></a>
+		
+	</div><!-- copyright -->
 	
 	
 </footer>

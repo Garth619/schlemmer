@@ -11,6 +11,9 @@ textarea { resize: none;}
 
 html {-webkit-text-size-adjust: 100%;} /* Disables scaling on landscape mobile */
 
+html,body {
+	overflow-x: hidden;
+}
 
 body {
 -webkit-font-smoothing: antialiased;

@@ -42,13 +42,23 @@
 	
 		<a class="sticky_menu_logo" href="<?php bloginfo('url');?>">
 		
-			<img src="<?php bloginfo('template_directory');?>/images/schlemmer_logo.svg"/>
+			<img class="logo_mobile" src="<?php bloginfo('template_directory');?>/images/schlemmer_logo.svg"/>
+			
+			<img class="logo_desktop" src="<?php bloginfo('template_directory');?>/images/logo-two.svg"/>
 		
 		</a><!-- sticky_menu_logo -->
 		
 		<a class="sticky_tel" href="tel:(888) 458-8500">(888) 458-8500</a><!-- sticky_tel -->
+		
+		
 	
 	</div><!-- sticky_menu_left -->
+	
+	<div class="menu_get_started">
+			
+			<span>let's get started</span>
+			
+		</div><!-- menu_get_started -->
 	
 	<div class="menu_prompt sticky">
 				

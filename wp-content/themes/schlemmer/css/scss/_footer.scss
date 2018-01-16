@@ -239,6 +239,12 @@ svg#bridge {
 		text-transform: uppercase;
 		// margin-bottom:7px;
 	}
+	a.address_link {
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:$bluelight;
+		}
+	}
 	a.social {
 		display: inline-block;
 		margin:15px 13px 0;
@@ -288,13 +294,65 @@ span.address_header {
 }
 
 
+.copyright {
+	height:93px;
+	align-items: center;
+	padding:0 58px;
+	display: flex;
+	justify-content: space-between;
+	ul {
+		list-style: none;
+		margin:0;
+		li:last-of-type {
+			&:after {
+				display: none;
+			}
+		}
+		li {
+			display:inline-block;
+			color:#1b1d2d;
+			font-size:12px;
+			font-family: $gothicdemicompressed;
+			text-transform: uppercase;
+			letter-spacing: 1.8px;
+			&:after {
+				content:"|";
+				display: inline-block;
+				margin:0 10px;
+			}
+			a {
+				color:#1b1d2d;
+				text-decoration: none;
+				transition: all .2s ease-in-out;
+				&:hover {
+					color:$bluelight;
+				}
+			}
+		}
+	}
+}
 
 
+a.ilawyer_marketing {
+	display: block;
+	width:240px;
+	height: 19px;
+	img {
+		max-width: 100%;
+		height:auto;
+	}
+}
 
 @media screen and (max-width: 1450px) {
 	
 	
+	.address_wrapper {
+		 width: 58%;
+	}
 	
+	.address_image {
+		width:42%;
+	}
 	
 	#form_section {
     padding: 122px 0 150px;
@@ -303,7 +361,6 @@ span.address_header {
 	.form_wrapper {
     margin: 118px auto 0;
 	}
-	
 	
 	
 	
@@ -404,11 +461,50 @@ span.address_header {
 	}
 }
 
+
+
+	
+	
+	
+	
+	.address_wrapper {
+		width: 53%;
+		padding: 90px 0 50px;
+		font-size:36px;
+		line-height: 48px;
+		a {
+			max-width: 437px;
+		}
+	}
+	
+	
+	.address_image {
+		width:47%;
+	}
+	    
+	
+	.loc_wrapper {
+    margin-bottom: 69px;
+	}
+	
+	
+	span.address_header {
+		margin-bottom: 12px;
+	}
+
+
+
 	
 } /* Media Query */
 
 
 @media screen and (max-width: 1060px) {
+	
+	
+	.copyright {
+		padding: 0 26px;
+	}
+	
 	
 	
 	svg#bridge {
@@ -502,8 +598,25 @@ span.address_header {
 	
 }
 
+.address_wrapper {
+	width:100%;
+	padding: 77px 0 30px;
+	line-height: 42px;
+}
 	
-	
+.address_image {
+	display: none;
+}
+
+
+span.address_header {
+	font-size: 17px;
+	letter-spacing: 9px;
+	margin-bottom:0;
+}
+
+
+
 	
 	
 	
@@ -515,8 +628,76 @@ span.address_header {
 
 
 
+@media screen and (max-width: 860px) {
+	
+	
+	
+	
+	
+	.copyright {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height:auto;
+		padding-top:15px;
+		padding-bottom:15px;
+		ul {
+			text-align: center;
+			max-width:300px;
+			li {
+				line-height: 10px;
+				&:first-of-type {
+					&:after {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	
+	a.ilawyer_marketing {
+		margin-top:10px
+	}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
 @media screen and (max-width: 767px) {
 	
+
+
+.address_wrapper {
+	font-size:25px;
+	line-height: 29px;
+	padding: 55px 0 30px;
+	a {
+		max-width: 307px;
+	}
+	a.social {
+		svg {
+			height: 25px;
+		}
+	}
+	
+}
+
+
+
+span.address_header {
+	font-size: 15px;
+	letter-spacing: 8px;
+}
+
+
+
+
 
 
 
@@ -623,9 +804,19 @@ span.address_header {
 }
 
 
+.loc_wrapper {
+  margin-bottom: 39px;
+}
+
+
+
+
+
 
 	
 } /* Media Query */
+
+
 
 
 
