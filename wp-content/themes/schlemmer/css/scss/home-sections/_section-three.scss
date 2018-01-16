@@ -17,6 +17,8 @@
 }
 
 
+#section_three {
+
 svg#brooklyn {
 	width:320px;
 	height:320px;
@@ -24,6 +26,17 @@ svg#brooklyn {
 	position: absolute;
 	top: -130px;
 	right:0;
+	.brooklyn-cls-1{
+		fill:#33a5de;
+	}
+	.brooklyn-cls-2{
+		fill:#51c4fc;
+	}
+	.brooklyn-cls-3{
+		fill:#939598;
+	}
+}
+
 }
 
 
@@ -185,11 +198,15 @@ svg#brooklyn {
    }
    
    
+   #section_three {
+   
    svg#brooklyn {
 	   width:280px;
 	   height:280px;
 	   top: -121px;
 	   left:30px;
+   }
+   
    }
        
 	
@@ -268,10 +285,14 @@ svg#brooklyn {
   }
 	
 	
+	#section_three {
+	
 	svg#brooklyn {
 		top: -70px;
 	  left:auto;
 	  right:30px;
+  }
+  
   }
 	
 	
@@ -289,12 +310,17 @@ svg#brooklyn {
 		padding: 0px 25px;
 	}
 	
+	
+	#section_three {
+	
 	svg#brooklyn {
 	  width:230px;
 	  height:230px;
 	  top: -65px;
 	  left:auto;
 	  right: -47px;
+  }
+  
   }
   
   

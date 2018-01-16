@@ -293,6 +293,28 @@ span.address_header {
 	
 }
 
+body:not(.page-template-page-home ) {
+	.address_image {
+		background-image: none;
+		background-color: $bluelight;
+		svg#brooklyn {
+			margin-top:-100px;
+			opacity: 0.3;
+			.brooklyn-cls-1{
+				fill:#000;
+			}
+			.brooklyn-cls-2{
+				fill:#51c4fc;
+			}
+			.brooklyn-cls-3{
+				fill:#000;
+			}
+		}
+	}
+}
+
+
+
 
 .copyright {
 	height:93px;

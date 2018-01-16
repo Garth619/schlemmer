@@ -1,5 +1,7 @@
 <footer>
 	
+	<?php if(is_front_page()) { ?>
+	
 	<section id="form_section">
 		
 		<?php echo file_get_contents("wp-content/themes/schlemmer/images/new-bridge.svg"); ?>
@@ -15,6 +17,8 @@
 		</div><!-- form_wrapper -->
 		
 	</section><!-- form_section -->
+	
+	<?php } ?>
 	
 	
 	<section id="location_section">
@@ -92,7 +96,21 @@
 		
 		<div class="address_image">
 			
+			<?php if(!is_front_page()) { ?>
+				
+				<?php echo file_get_contents("wp-content/themes/schlemmer/images/new_brooklyn.svg"); ?>
 			
+				<div class="form_wrapper">
+					
+					<span class="footer_form_title">Let's Get Started</span>
+					
+					<span class="footer_required">Form Field Required <span class="ast">*</span></span>
+			
+					<?php gravity_form(1, false, false, false, '', true, 124); ?>
+			
+				</div><!-- form_wrapper -->
+				
+			<?php } ?>
 			
 		</div><!-- address_image -->
 		

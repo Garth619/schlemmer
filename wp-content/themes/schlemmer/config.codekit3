@@ -540,6 +540,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/dot.png": {
+		"ft": 32768,
+		"iS": 1051,
+		"oA": 0,
+		"oAP": "\/images\/dot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/footer-subway-img-desktop.jpg": {
 		"ft": 16384,
 		"iS": 232043,
