@@ -7,7 +7,7 @@
 <div class="container">
 	
 	
-	<div class="innner_default">
+	<div class="inner_default">
 		
 		<?php get_sidebar(); ?>
 		
@@ -49,7 +49,7 @@
 	</div><!-- content_wrapper -->
 	
 	
-	</div><!-- innner_default -->
+	</div><!-- inner_default -->
 	
 	
 	

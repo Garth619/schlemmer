@@ -113,9 +113,17 @@ img.aligncenter {
 	    margin-bottom: 30px;
     }
     h2 {
-	    font-size: 35px;
+	    font-size: 32px;
 	    padding-top:2px;
     }
+    blockquote {
+	    font-size: 45px;
+	    line-height: 52px;
+	     margin: 60px 0;
+    }
+    ul {
+			margin-left:43px;
+		}
   }
 	
 	
@@ -137,6 +145,38 @@ img.aligncenter {
 	max-width:100%;
 	height:auto;
 }
+
+
+
+	.content {
+   	h1 {
+	   	font-size: 52px;
+	   	line-height: 55px;
+	   	margin-bottom: 31px;
+	    padding-bottom: 29px;
+   	}
+    p {
+	   
+    }
+    h2 {
+	    
+    }
+    blockquote {
+	    font-size:38px;
+	    line-height: 44px;
+	    padding: 0 0px 0 30px;
+	    margin: 55px 0;
+	    &:before {
+		    left: -4px;
+	    }
+    }
+    ul {
+			
+		}
+  }
+  
+  
+  
 	
 	
 	
