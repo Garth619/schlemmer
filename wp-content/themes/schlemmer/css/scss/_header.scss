@@ -1,7 +1,13 @@
 #sticky_menu {
-	display: block;
+	display: none;
+}
+
+
+
+body:not(.page-template-page-home) {
 	display: flex;
 }
+
 
 
 
@@ -104,13 +110,15 @@ a.sticky_tel {
 	
 	
 	#sticky_menu {
-		
+		display: flex;
 		width:100%;
 		
+/*
 		position: fixed;
 		top:0;
 		left:0;
 		z-index:100;
+*/
 	}
 	
 	
