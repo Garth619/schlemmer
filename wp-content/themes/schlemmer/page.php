@@ -11,11 +11,7 @@
 		
 		<?php get_sidebar(); ?>
 		
-		
-	
-	
-	
-	<div class="content_wrapper content">
+		<div class="content_wrapper content">
 		
 		<h1>H1-lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet </h1>
 		

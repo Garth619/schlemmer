@@ -1,0 +1,98 @@
+
+body.page-template-page-practiceareas {
+	.container {
+		background: url(#{$themePath}images/wavy_line_patterns.jpg) top left repeat;
+	
+	}
+}
+
+
+
+
+.pa_wrapper {
+	text-align: center;
+	width:100%;
+	max-width:1780px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:130px 70px 280px;
+	
+	h1 {
+		font-weight: 300;
+		font-style: normal;
+		text-transform: uppercase;
+		color:$bluelight;
+		font-size:50px;
+		font-family: $gothicdemicondensed;
+		letter-spacing: 25px;
+		display: block;
+		margin-bottom:170px
+	}
+	ul#menu-practice-areas {
+		list-style: none;
+		> li.menu-item-has-children {
+			
+				> a {
+						&:after {
+							content:"";
+							display: block;
+							width:27px;
+							height:3px;
+							background: $bluelight;
+							margin: 35px auto 29px;
+							transform: rotate(-60deg);
+							
+						}
+					}
+				
+				
+				
+		}
+		> li {
+				font-family: $questrabold;
+				font-size: 40px;
+				text-transform: lowercase;
+				> a {
+					color:#0a1727;
+					text-decoration: none;
+				}
+		}
+	}
+	ul.sub-menu {
+		list-style: none;
+		margin-bottom:140px;
+		&:after {
+			content:"";
+			clear:both;
+			display: block;
+		}
+		> li {
+				font-family:$gothicdemi;
+				text-transform: uppercase;
+				font-size:14px;
+				float:left;
+				width: 30.6%;
+				border-bottom:1px solid #9e9e9e;
+				margin-right:4%;
+				height: 71px;
+				line-height: 19px;
+				&:nth-of-type(3n +3) {
+					margin-right: 0;
+				}
+				>a {
+					display: block;
+					transition: all .2s ease-in-out;
+					text-decoration: none;
+					color:#0a1727;
+					padding:0px 5px;
+					position: relative;
+					top: 50%;
+					transform: translateY(-50%);
+					
+					&:hover {
+						color:$bluelight; 
+					}
+				}
+		}
+	}
+}

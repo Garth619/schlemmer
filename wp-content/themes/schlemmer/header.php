@@ -105,6 +105,6 @@
 	
 </div><!-- nav_overlay -->
 
-<header>
+</header>
 
 			

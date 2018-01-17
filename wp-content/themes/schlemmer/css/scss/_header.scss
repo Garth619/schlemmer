@@ -4,7 +4,10 @@ body.page-template-page-home {
 	}
 }
 
-
+header {
+	position: relative;
+	z-index:200;
+}
 
 #sticky_menu {
 	display: flex;
