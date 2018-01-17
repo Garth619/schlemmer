@@ -35,6 +35,16 @@
 <body <?php body_class(); ?>>
 				
 <header>
+	
+<div class="mobile_logo_internals">
+	
+	<a href="<?php bloginfo('url');?>">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/logo-two.svg"/>
+	
+	</a>
+	
+</div><!-- mobile_logo_internals -->
 
 <div id="sticky_menu">
 	

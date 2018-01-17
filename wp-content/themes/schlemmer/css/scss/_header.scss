@@ -15,6 +15,10 @@ header {
 }
 
 
+.mobile_logo_internals {
+	display: none;
+}
+
 
 
 .sticky_menu_left {
@@ -48,6 +52,7 @@ a.sticky_tel {
 	font-size:32px;
 	text-decoration: none;
 	letter-spacing: 1px;
+	margin-top: 8px;
 }
 
 
@@ -165,6 +170,7 @@ a.sticky_tel {
 	letter-spacing: 1px;
 	display: block;
 	padding-top: 12px;
+	    margin-top: 0px;
 }
 
 
@@ -190,6 +196,28 @@ a.sticky_tel {
 @media screen and (max-width: 767px) {
 	
 	
+	
+	body:not(.page-template-page-home) {
+		.mobile_logo_internals {
+			display: block;
+			text-align: center;
+			a {
+				width:209px;
+				display: inline-block;
+				padding:13px 0;
+				img {
+					max-width: 100%;
+					height:auto;
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
 	.sticky_menu_left {
 		justify-content: center;
 		padding: 0px 0 4px 0px;
@@ -208,7 +236,7 @@ a.sticky_tel {
 	
 
 	.menu_prompt.sticky {
-		padding: 18px 0 12px;
+		padding: 18px 0 8px;
 		flex-basis: 95px;
 		span.menu_bars {
 			height:3px;
