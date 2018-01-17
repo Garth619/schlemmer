@@ -61,13 +61,13 @@ jQuery(document).ready(function(){
 	    if (windowWidth < 1060) {
 		    
 		    	
-		    	$('<li class="mobile_back"><a>Back</a></li>').prependTo( "ul.sub-menu" );
+		    	$('<li class="mobile_back"><a>Back</a></li>').prependTo( "#nav_overlay ul.sub-menu" );
 		    
 		    
 		    	$('.nav_col:last-of-type').hide();
 	        
 	      
-	     		$('ul#menu-menu-1 > li.menu-item-has-children > a').on('click', function(e) {
+	     		$('#nav_overlay ul#menu-menu-1 > li.menu-item-has-children > a').on('click', function(e) {
 	        
 			 			$('.nav_col:first-of-type').fadeOut(200);
 			 			
@@ -142,7 +142,7 @@ jQuery(document).ready(function(){
 	
 	
 	
-	$('ul#menu-menu-1 > li.menu-item-has-children > a').on('click', function(e) {
+	$('#nav_overlay ul#menu-menu-1 > li.menu-item-has-children > a').on('click', function(e) {
 	  
 
 		 $(".sub_menu_container").empty();

@@ -15,7 +15,7 @@ body.page-template-page-practiceareas {
 	max-width:1780px;
 	margin-left:auto;
 	margin-right:auto;
-	padding:130px 70px 280px;
+	padding:140px 70px 280px;
 	
 	h1 {
 		font-weight: 300;
@@ -76,6 +76,7 @@ body.page-template-page-practiceareas {
 				margin-right:4%;
 				height: 71px;
 				line-height: 19px;
+				letter-spacing: 1.5px;
 				&:nth-of-type(3n +3) {
 					margin-right: 0;
 				}
@@ -96,3 +97,220 @@ body.page-template-page-practiceareas {
 		}
 	}
 }
+
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	
+	
+	
+	.pa_wrapper {
+	
+	
+	h1 {
+		font-size: 35px;
+		letter-spacing: 20px;
+		margin-bottom: 117px;
+	}
+	ul#menu-practice-areas {
+		
+		> li.menu-item-has-children {
+			
+				> a {
+						&:after {
+							
+							
+						}
+					}
+				
+				
+				
+		}
+		> li {
+				
+				> a {
+					
+				}
+		}
+	}
+	ul.sub-menu {
+		
+		&:after {
+			
+		}
+		> li {
+				
+				&:nth-of-type(3n +3) {
+				
+				}
+				>a {
+					
+					
+					&:hover {
+						
+					}
+				}
+		}
+	}
+}
+
+
+
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+
+
+.pa_wrapper {
+	padding: 99px 45px 150px;
+	
+	h1 {
+		font-size: 30px;
+		margin-bottom: 102px;
+	}
+	ul#menu-practice-areas {
+		
+		> li.menu-item-has-children {
+			
+				> a {
+						&:after {
+							
+							
+						}
+					}
+				
+				
+				
+		}
+		> li {
+				
+				> a {
+					
+				}
+		}
+	}
+	ul.sub-menu {
+		margin-bottom: 75px;
+		&:after {
+			
+		}
+		> li {
+				width:48%;
+				margin-right:4%;
+				&:nth-of-type(3n +3) {
+					margin-right:4%;
+				}
+				&:nth-of-type(2n +2) {
+					margin-right:0%;
+				}
+				>a {
+					
+					
+					&:hover {
+						
+					}
+				}
+		}
+	}
+}
+
+
+
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	
+	
+.pa_wrapper {
+	padding: 45px 26px 150px;
+	
+	h1 {
+		font-size: 20px;
+		letter-spacing: 8px;
+		margin-bottom: 38px;
+	}
+	ul#menu-practice-areas {
+		
+		> li.menu-item-has-children {
+			
+				> a {
+						&:after {
+							
+							
+						}
+					}
+				
+				
+				
+		}
+		> li {
+				
+				> a {
+					
+				}
+		}
+	}
+	ul.sub-menu {
+		margin-bottom: 52px;
+		&:after {
+			
+		}
+		> li {
+				width:100%;
+				float:none;
+				max-width:320px;
+				margin-left:auto;
+				margin-right:auto;
+				height:auto;
+				&:nth-of-type(3n +3) {
+					margin-right:auto;
+					float:none;
+				}
+				&:nth-of-type(2n +2) {
+					margin-right:auto;
+					float:none;
+				}
+				>a {
+					padding:20px 5px; 
+					display: block;
+					top:0;
+					position: static;
+					transform: none;
+					&:hover {
+						
+					}
+				}
+		}
+	}
+}
+
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
