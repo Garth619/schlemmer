@@ -28,6 +28,11 @@ img.aligncenter {
 }
 
 
+.container {
+	padding-left:70px;
+	padding-right:70px;
+}
+
 .content {
 	color:$bluedark;
 	font-family: $gothicbook;
@@ -149,6 +154,18 @@ body:not(.page-template-page-home), body:not(.page-template-default) {
 	
 } /* Media Query */
 
+
+@media screen and (max-width: 1250px) {
+	
+	
+	.container {
+		padding-left:45px;
+		padding-right:45px;
+	}
+	
+	
+} /* Media Query */
+
 @media screen and (max-width: 767px) {
 	
 	
@@ -162,6 +179,13 @@ img.aligncenter {
 	float:none;
 	max-width:100%;
 	height:auto;
+}
+
+
+
+.container {
+	padding-left:26px;
+	padding-right:26px;
 }
 
 
