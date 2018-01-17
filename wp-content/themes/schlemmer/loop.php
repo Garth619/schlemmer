@@ -18,9 +18,30 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	<?php the_content();?>
+	<div class="single_post">
 			
-		<?php edit_post_link( __( 'Edit'), '', '' ); ?>
+			
+			<a href="<?php the_permalink();?>">
+					<h2>Donec ut porttitor leo, pellentesque commodo ac quam sit amet ullamcorper praesent vitae ligula eros phasellus lorem</h2>
+			</a>
+			
+			<div class="meta">
+				
+				<span>Posted by  <span class="blue"><?php the_author(); ?></span>  on <span class="blue"><?php $pfx_date = get_the_date(); echo $pfx_date ?></span> in <?php echo get_the_category_list();?></span>
+				
+			</div><!-- meta -->
+			
+			<div class="blog_content"><?php echo wp_trim_words( get_the_content(), 106, '...' );?></div><!-- blog_content -->
+			
+			<a class="read_more_button" href="<?php the_permalink();?>">Read Full Post</a><!-- read_more_button -->
+			
+			<?php edit_post_link( __( 'Edit'), '', '' ); ?>
+			
+			
+		</div><!-- single_post -->
+			
+			
+			
 			
 		
 <?php endwhile; // end of loop ?>
@@ -31,11 +52,15 @@
 
 <?php if (  $wp_query->max_num_pages > 1 ) : ?>
 	
-	<div id="nav-below" class="navigation">
+	<div id="nav_below">
 		
-		<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts' ) ); ?></div>
+		<div class="nav_previous"><?php next_posts_link( __( 'Prev' ) ); ?></div>
+		
+		<?php if(get_previous_posts_link()) { ?>
 			
-		<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>') ); ?></div>
+				<div class="nav_next"><?php previous_posts_link( __( 'Next') ); ?></div>
+				
+		<? } ?>
 	
 	</div><!-- #nav-below -->
 
