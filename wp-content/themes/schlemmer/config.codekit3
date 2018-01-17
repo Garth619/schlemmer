@@ -1237,6 +1237,13 @@
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
+	"\/page-about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-about.php",
+		"oF": 0
+		},
 	"\/page-bio.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1251,6 +1258,13 @@
 		"oAP": "\/page-blog.php",
 		"oF": 0
 		},
+	"\/page-contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-contact.php",
+		"oF": 0
+		},
 	"\/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1263,6 +1277,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-practiceareas.php",
+		"oF": 0
+		},
+	"\/page-results.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-results.php",
+		"oF": 0
+		},
+	"\/page-testimonials.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-testimonials.php",
 		"oF": 0
 		},
 	"\/page.php": {
