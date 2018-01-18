@@ -4,6 +4,7 @@
 
 <?php get_template_part( 'banner', 'internal' ) ?>
 
+
 <div class="container">
 	
 	
@@ -28,11 +29,6 @@
 	
 	
 </div><!-- container -->
-
-
-
-
-	
 
 
 
