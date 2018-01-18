@@ -199,17 +199,30 @@ $('.case_results_wrapper').slick({
 
 $('.about_logos').slick({
   	infinite: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		mobileFirst: true,
+		slidesToShow: 5,
+		slidesToScroll: 5,
 		dots:true,
+		arrows:false,
 		responsive: [
     {
       breakpoint: 1060,
-      	settings: "unslick"
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
     }
   ]
-	});
+    
+   	});
 	
 	
 
