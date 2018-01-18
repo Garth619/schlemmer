@@ -1,0 +1,65 @@
+
+body.page-template-page-about-php {
+	.container {
+		padding:0;
+	}
+}
+
+
+.int_about {
+	margin:115px 0;
+	
+	h1 {
+		font-size:189px;
+		text-transform: uppercase;
+		font-family:$questrabold;
+		color:$bluelight;
+		margin-left:8%;
+	}
+	span.small_header {
+		color:$bluedark;
+		font-family: $gothicdemicondensed;
+		text-transform: uppercase;
+		font-size:25px;
+		letter-spacing: 15.5px;
+		margin-left:23%;
+		display: block;
+		margin-top:5px;
+	}
+}
+
+
+.int_about_bottom {
+	background: url(#{$themePath}images/stardust_texture.jpg) top left repeat;
+	margin-top:109px;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+}
+
+
+
+.int_about_content {
+	width:calc(100% - 808px);
+	float:left;
+	padding:125px 45px 0;
+	.int_about_content_inner {
+		color:#fff;
+		max-width:710px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+
+.int_about_pic {
+	width:808px;
+	float:right;
+	margin-top:-290px;
+	img {
+		max-width: 100%;
+		height:auto;
+	}
+}
