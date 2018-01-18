@@ -117,4 +117,56 @@
 
 </header>
 
+
+<div class="sticky_get_started_tab_wrapper">
+
+	<div class="sticky_get_started_tab">
+	
+		<span class="free_case">Free Case Evaluation</span><!-- free_case -->
+	
+	</div><!-- sticky_get_started_tab -->
+	
+	<div class="get_started_cta">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/get-started-slide-out-two.svg"/>
+		
+		<span class="click_here">Click Here</span><!-- click_here -->
+		
+		
+	</div><!-- get_started_cta -->
+
+
+</div><!-- sticky_get_started_tab_wrapper -->
+
+
+
+<div class="sticky_form_overlay">
+	
+	<div class="sticky_overlay_close">
+		
+		<div></div>
+		
+		<div></div>
+		
+	</div><!-- overlay_close-->
+
+	<section id="form_section">
+		
+		<?php echo file_get_contents("wp-content/themes/schlemmer/images/new-bridge.svg"); ?>
+		
+		<span class="get_started">Let's Get Started</span><!-- get_started -->
+		
+		<span class="required">Form Field Required <span class="ast">*</span></span><!-- required -->
+		
+		<div class="form_wrapper">
+			
+			<?php gravity_form(1, false, false, false, '', true, 133); ?>
+			
+		</div><!-- form_wrapper -->
+		
+	</section><!-- form_section -->
+	
+	
+	
+</div><!-- sticky_form_overlay -->
 			

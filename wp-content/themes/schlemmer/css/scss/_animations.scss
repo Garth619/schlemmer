@@ -411,6 +411,28 @@
 	
 	
 */
+
+
+
+// form overlay
+
+
+
+
+.sticky_form_overlay {
+	
+	
+	transition: all 650ms cubic-bezier(.17,.66,.34,.98);
+	transform: translateX(100%);
+	
+}
+
+
+.sticky_form_overlay.open {
+	transform: translateX(0%);
+}
+
+
 	
 
 

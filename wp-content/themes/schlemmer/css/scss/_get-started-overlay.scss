@@ -1,0 +1,135 @@
+.sticky_get_started_tab_wrapper.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.sticky_get_started_tab_wrapper.active.close {
+	opacity: 0;
+	visibility: hidden;
+}
+
+
+
+.sticky_get_started_tab_wrapper {
+	position: fixed;
+	top:45%;
+	left:-108px;
+	cursor: pointer;
+	z-index: 50;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 500ms ease-in-out;
+	&:hover {
+		.sticky_get_started_tab {
+			background: #fff;
+			
+			span.free_case {
+				color:$bluelight;
+			}
+		}
+	}
+	.sticky_get_started_tab {
+		background: $bluelight;
+		transform: rotate(-90deg);
+		transition: all .3s ease-in-out;
+		float:left;
+		span.free_case {
+			color:#fff;
+			text-transform: uppercase;
+			font-family:$gothicdemicompressed;
+			font-size:20px;
+			letter-spacing: 4px;
+			display: block;
+			padding:25px 23px 22px;
+		}
+	}
+}
+
+
+
+.get_started_cta.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.get_started_cta {
+	float:left;
+	width:328px;
+	height: 282px;
+	background: url(#{$themePath}images/stardust_texture.jpg) top left no-repeat;
+	position: relative;
+	top: -107px;
+  left: -108px; 
+  text-align: center;
+  border:1px solid #3a4550;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 500ms ease-in-out;
+	img {
+		width:100%;
+		max-width: 253px;
+		height:auto;
+		display: block;
+		margin:18px auto 0;
+	}
+	span.click_here {
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $gothicdemicompressed;
+		font-size:16px;
+		letter-spacing: 2.5px;
+		display: inline-block;
+		margin:0px auto;
+		position: relative;
+		top:-68px;
+	}
+}
+
+
+
+.sticky_form_overlay {
+	position: fixed;
+	width:100%;
+	height:100%;
+	background: #fff;
+	top:0;
+	left:0;
+	z-index:500;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+
+
+
+
+
+.sticky_overlay_close {
+	position: absolute;
+	top:50px;
+	right:40px;
+	cursor: pointer;
+	z-index: 300;
+	&:hover {
+		div {
+			background: $bluelight;
+		}
+	}
+	div {
+		display: block;
+		width:45px;
+		height:6px;
+		background: #06222d;
+		transition: all .2s ease-in-out;
+		&:first-of-type {
+			transform-origin: 26px 6px 0;
+			transform: rotate(-45deg);
+		}
+		&:last-of-type {
+			transform-origin: 24px 1px 0;
+			transform: rotate(45deg);
+		}
+	}
+}

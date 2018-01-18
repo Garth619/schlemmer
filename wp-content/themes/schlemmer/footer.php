@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer_trigger">
 	
 	<?php if(is_front_page() || (is_page_template('page-contact.php'))) { ?>
 	
