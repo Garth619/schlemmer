@@ -219,8 +219,24 @@ span.sidebar_title {
 	
 	
 	
-	.banner {
-		display: none;
+	
+	
+	
+	body.page-template-page-results {
+		background: url(#{$themePath}images/wavy_line_patterns.jpg) top left repeat;
+		.banner {
+			background: none;
+			height:auto;
+			display: block;
+			text-align: center;
+			span.banner_title {
+				color:$bluelight;
+				font-size: 30px;
+				margin: 87px 0 90px;
+				letter-spacing: 20px;
+			}
+			
+		}
 	}
 	
 	
@@ -275,6 +291,20 @@ span.sidebar_title {
 		
 		padding-top: 33px;
 	}
+	
+	
+	
+	body.page-template-page-results {
+		.banner {
+				span.banner_title {
+					margin: 43px 0 90px;
+					font-size: 20px;
+					letter-spacing: 8px;
+					margin-bottom: 38px;
+			}
+		}
+	}
+
 	
 	
 	

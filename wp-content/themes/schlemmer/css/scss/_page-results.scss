@@ -13,7 +13,7 @@ body.page-template-page-results {
 	width:100%;
 	text-align: center;
 	margin:0px auto;
-	padding:120px 0;
+	padding:120px 0 220px;
 	max-width:1710px;
 	display: flex;
 	flex-wrap:wrap;
@@ -54,3 +54,89 @@ body.page-template-page-results {
 		margin-top:17px;
 	}
 }
+
+
+
+@media screen and (max-width: 1480px) {
+	
+	.results_wrapper {
+			max-width:1000px;
+	}
+	
+	.single_case_result {
+		margin-bottom:110px;
+		width:50%;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1120px) {
+	
+	
+	
+	
+	
+	.single_case_result {
+		span.case_number {
+			font-size: 80px;
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+@media screen and (max-width: 1060px) {
+	
+	
+	
+	
+	.results_wrapper {
+		padding: 0px 0 170px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.results_wrapper {
+		padding: 0px 0 130px;
+	}
+
+	
+	
+	.single_case_result {
+		margin-bottom:50px;
+		width:100%;
+	}
+	
+	
+	.single_case_result {
+		span.case_number {
+			font-size: 55px;
+		}
+		span.case_name {
+			font-size: 20px;
+			margin-top: 8px;
+			letter-spacing: 4px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
