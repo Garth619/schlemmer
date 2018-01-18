@@ -4,7 +4,12 @@
 	
 get_header(); ?>
 
-<img class="bio_pic_mobile" src="<?php bloginfo('template_directory');?>/images/schlemmer.jpg"/>
+
+<?php $attorney_image = get_field( 'attorney_image' ); ?>
+
+<img class="bio_pic_mobile" src="<?php echo $attorney_image['url']; ?>" alt="<?php echo $attorney_image['alt']; ?>" />
+
+
 
 
 <div class="container">

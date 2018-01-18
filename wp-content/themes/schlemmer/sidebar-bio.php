@@ -1,7 +1,8 @@
 <div class="sidebar_bio">
 	
-	<img class="bio_pic_desktop" src="<?php bloginfo('template_directory');?>/images/schlemmer.jpg"/>
+	<?php $attorney_imagetwo = get_field( 'attorney_image' ); ?>
 	
+	<img class="bio_pic_desktop" src="<?php echo $attorney_imagetwo['url']; ?>" alt="<?php echo $attorney_imagetwo['alt']; ?>" />
 	
 	<div class="bio_list">
 		
