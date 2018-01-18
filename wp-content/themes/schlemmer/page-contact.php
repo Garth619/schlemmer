@@ -5,9 +5,34 @@
 	get_header(); ?>
 
 
-<div class="container" style="min-height:800px">
+<div class="container">
 	
-		<h1><?php the_title();?></h1>
+	<div class="int_contact_wrapper">
+		
+		<h1>Contact</h1>
+		
+		<div class="int_contact_bottom">
+			
+			
+			<div class="int_addess">
+				
+				
+				
+			</div><!-- int_addess -->
+			
+			
+			<div class="int_map">
+				
+				
+				
+			</div><!-- int_map -->
+			
+			
+		</div><!-- contact_bottom -->
+		
+		
+	</div><!-- int_contact_wrapper -->
+	
 	
 </div><!-- container -->
 

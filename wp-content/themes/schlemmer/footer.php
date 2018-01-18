@@ -1,6 +1,6 @@
 <footer>
 	
-	<?php if(is_front_page()) { ?>
+	<?php if(is_front_page() || (is_page_template('page-contact.php'))) { ?>
 	
 	<section id="form_section">
 		
@@ -12,7 +12,7 @@
 		
 		<div class="form_wrapper">
 			
-			<?php gravity_form(1, false, false, false, '', true, 124); ?>
+			<?php gravity_form(1, false, false, false, '', true, 133); ?>
 			
 		</div><!-- form_wrapper -->
 		
