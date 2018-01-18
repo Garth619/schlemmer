@@ -15,115 +15,36 @@
 		
 	<div class="results_wrapper">
 		
-		<div class="single_case_result">
-			
-			
-			<span class="case_number">$1.75 m</span><!-- case_number -->
-			
-			<span class="case_type">Verdict</span><!-- case_type -->
-			
-			<span class="case_name">Lorem VS Lorem</span><!-- case_name -->
-			
-			
-		</div><!-- single_case_result -->
 		
-		<div class="single_case_result">
-			
-			
-			<span class="case_number">$1.75 m</span><!-- case_number -->
-			
-			<span class="case_type">Verdict</span><!-- case_type -->
-			
-			<span class="case_name">Lorem VS Lorem</span><!-- case_name -->
-			
-			
-		</div><!-- single_case_result -->
-		
-		<div class="single_case_result">
-			
-			
-			<span class="case_number">$1.75 m</span><!-- case_number -->
-			
-			<span class="case_type">Verdict</span><!-- case_type -->
-			
-			<span class="case_name">Lorem VS Lorem</span><!-- case_name -->
-			
-			
-		</div><!-- single_case_result -->
-		
-		<div class="single_case_result">
-			
-			
-			<span class="case_number">$1.75 m</span><!-- case_number -->
-			
-			<span class="case_type">Verdict</span><!-- case_type -->
-			
-			<span class="case_name">Lorem VS Lorem</span><!-- case_name -->
-			
-			
-		</div><!-- single_case_result -->
-		
-		<div class="single_case_result">
-			
-			
-			<span class="case_number">$1.75 m</span><!-- case_number -->
-			
-			<span class="case_type">Verdict</span><!-- case_type -->
-			
-			<span class="case_name">Lorem VS Lorem</span><!-- case_name -->
-			
-			
-		</div><!-- single_case_result -->
-		
-		<div class="single_case_result">
-			
-			
-			<span class="case_number">$1.75 m</span><!-- case_number -->
-			
-			<span class="case_type">Verdict</span><!-- case_type -->
-			
-			<span class="case_name">Lorem VS Lorem</span><!-- case_name -->
-			
-			
-		</div><!-- single_case_result -->
-		
-		<div class="single_case_result">
-			
-			
-			<span class="case_number">$1.75 m</span><!-- case_number -->
-			
-			<span class="case_type">Verdict</span><!-- case_type -->
-			
-			<span class="case_name">Lorem VS Lorem</span><!-- case_name -->
-			
-			
-		</div><!-- single_case_result -->
-		
-		<div class="single_case_result">
-			
-			
-			<span class="case_number">$1.75 m</span><!-- case_number -->
-			
-			<span class="case_type">Verdict</span><!-- case_type -->
-			
-			<span class="case_name">Lorem VS Lorem</span><!-- case_name -->
-			
-			
-		</div><!-- single_case_result -->
-		
-		<div class="single_case_result">
-			
-			
-			<span class="case_number">$1.75 m</span><!-- case_number -->
-			
-			<span class="case_type">Verdict</span><!-- case_type -->
-			
-			<span class="case_name">Lorem VS Lorem</span><!-- case_name -->
-			
-			
-		</div><!-- single_case_result -->
+		<?php if(get_field('results')): ?>
 		
 		
+		 
+			<?php while(has_sub_field('results')): ?>
+			
+				
+					<div class="single_case_result">
+		 
+				
+		    		<span class="case_number"><?php the_sub_field( 'amount' ); ?></span><!-- case_number -->
+			
+						<span class="case_type"><?php the_sub_field( 'case_type' ); ?></span><!-- case_type -->
+			
+						<span class="case_name"><?php the_sub_field( 'case_name' ); ?></span><!-- case_name -->
+						
+						
+					</div><!-- single_case_result -->
+		    
+		    
+			<?php endwhile; ?>
+			
+		
+		 
+		<?php endif; ?>
+		
+		
+		
+				
 		
 		
 	</div><!-- results_wrapper -->

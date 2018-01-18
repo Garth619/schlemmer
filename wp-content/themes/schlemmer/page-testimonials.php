@@ -19,68 +19,64 @@
 	<div class="testimonial_column">
 		
 		
-		<div class="int_single_testimonial">
+		<?php if(get_field('testimonials')): ?>
+		 
+			<?php while(has_sub_field('testimonials')): ?>
+		 
+		 
+						
+						<div class="int_single_testimonial">
 		
 		
-			<span class="title">I am very grateful to Mr. Schlemmer</span><!-- title -->
+							<span class="title"><?php the_sub_field( 'header_title' ); ?></span><!-- title -->
 		
-			<span class="testi_content">I had been in a car accident and had hired an attorney that did nothing to help me. I had a chance meeting and met Mr. Schlemmer. He not only took over my case, he accompanied me to doctor appointments, and genuinely cared about me.
- The settlement was very fair and that was only because of Mr. Schlemmer's expertise. Anytime I had questions he answered my calls and addressed my concerns. My injury was devastating and I am very grateful to Mr. Schlemmer.</span><!-- testi_content -->
+							<span class="testi_content"><?php the_sub_field( 'testimonial_content' ); ?></span><!-- testi_content -->
  
  
- 			<span class="testi_name">Patricia J.</span><!-- testi_name -->
+ 							<span class="testi_name"><?php the_sub_field( 'name' ); ?></span><!-- testi_name -->
 		
 		
-		</div><!-- int_single_testimonial -->
-		
-		
-		<div class="int_single_testimonial">
-		
-		
-			<span class="title">I am very grateful to Mr. Schlemmer</span><!-- title -->
-		
-			<span class="testi_content">I had been in a car accident and had hired an attorney that did nothing to help me. I had a chance meeting and met Mr. Schlemmer. He not only took over my case, he accompanied me to doctor appointments, and genuinely cared about me.
- The settlement was very fair and that was only because of Mr. Schlemmer's expertise. Anytime I had questions he answered my calls and addressed my concerns. My injury was devastating and I am very grateful to Mr. Schlemmer.</span><!-- testi_content -->
- 
- 
- 			<span class="testi_name">Patricia J.</span><!-- testi_name -->
-		
-		
-		</div><!-- int_single_testimonial -->
+						</div><!-- int_single_testimonial -->
+
+				
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 		
 		
 	</div><!-- testimonial_column -->
 	
 	<div class="testimonial_column">
 		
-		<div class="int_single_testimonial">
 		
 		
-			<span class="title">I am very grateful to Mr. Schlemmer</span><!-- title -->
+		<?php if(get_field('testimonials_two')): ?>
+		 
+			<?php while(has_sub_field('testimonials_two')): ?>
+		 
+		 
+						
+						<div class="int_single_testimonial">
 		
-			<span class="testi_content">I had been in a car accident and had hired an attorney that did nothing to help me. I had a chance meeting and met Mr. Schlemmer. He not only took over my case, he accompanied me to doctor appointments, and genuinely cared about me.
- The settlement was very fair and that was only because of Mr. Schlemmer's expertise. Anytime I had questions he answered my calls and addressed my concerns. My injury was devastating and I am very grateful to Mr. Schlemmer.</span><!-- testi_content -->
+		
+							<span class="title"><?php the_sub_field( 'header_title' ); ?></span><!-- title -->
+		
+							<span class="testi_content"><?php the_sub_field( 'testimonial_content' ); ?></span><!-- testi_content -->
  
  
- 			<span class="testi_name">Patricia J.</span><!-- testi_name -->
+ 							<span class="testi_name"><?php the_sub_field( 'name' ); ?></span><!-- testi_name -->
 		
 		
-		</div><!-- int_single_testimonial -->
+						</div><!-- int_single_testimonial -->
+
+				
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 		
 		
-		<div class="int_single_testimonial">
-		
-		
-			<span class="title">I am very grateful to Mr. Schlemmer</span><!-- title -->
-		
-			<span class="testi_content">I had been in a car accident and had hired an attorney that did nothing to help me. I had a chance meeting and met Mr. Schlemmer. He not only took over my case, he accompanied me to doctor appointments, and genuinely cared about me.
- The settlement was very fair and that was only because of Mr. Schlemmer's expertise. Anytime I had questions he answered my calls and addressed my concerns. My injury was devastating and I am very grateful to Mr. Schlemmer.</span><!-- testi_content -->
- 
- 
- 			<span class="testi_name">Patricia J.</span><!-- testi_name -->
-		
-		
-		</div><!-- int_single_testimonial -->
 
 	
 	</div><!-- testimonial_column -->
