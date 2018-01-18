@@ -465,9 +465,14 @@ a.ilawyer_marketing {
 	display: block;
 	width:240px;
 	height: 19px;
-	img {
+	svg {
 		max-width: 100%;
 		height:auto;
+		width:240px;
+		height: 19px;
+		.ilawyer-cls-1{
+			fill:#1b1d2d;
+		}
 	}
 }
 
