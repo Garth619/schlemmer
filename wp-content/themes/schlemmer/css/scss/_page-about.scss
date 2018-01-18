@@ -6,6 +6,13 @@ body.page-template-page-about-php {
 }
 
 
+body.page-template-page-about {
+	.address_image svg#brooklyn {
+		display: none;
+	}
+}
+
+
 .int_about {
 	margin:115px 0;
 	
@@ -61,5 +68,63 @@ body.page-template-page-about-php {
 	img {
 		max-width: 100%;
 		height:auto;
+		display: block;
+	}
+}
+
+
+.about_logos {
+	width:100%;
+	clear:both;
+	padding:135px 0 160px;
+	text-align: center;
+	
+	.logo_slide {
+		display: inline-block;
+		margin:0 3.5%;
+	}
+}
+
+
+
+
+.second_int_about_inner {
+	max-width: 1465px;
+	margin:140px auto;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+	svg#brooklyn {
+		width:320px;
+		float:left;
+		opacity: 0.3;
+		transform: rotate(-35deg);
+		.brooklyn-cls-1{
+			fill:#000;
+		}
+		.brooklyn-cls-2{
+			fill:#fff;
+		}
+		.brooklyn-cls-3{
+			fill:#000;
+		}
+	}
+}
+
+
+.second_int_about_content.content {
+	float:right;
+	width:calc(100% - 320px);
+	padding-left:70px;
+	font-size: 17px;
+	line-height: 34px;
+	p.about_intro {
+		color:#000;
+		font-family: $questrabold;
+		font-size: 50px;
+		line-height: 59px;
+		margin-bottom:63px;
 	}
 }

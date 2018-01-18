@@ -193,6 +193,27 @@ $('.case_results_wrapper').slick({
 	});
 	
 	
+// Int About Logos
+
+
+
+$('.about_logos').slick({
+  	infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		mobileFirst: true,
+		dots:true,
+		responsive: [
+    {
+      breakpoint: 1060,
+      	settings: "unslick"
+    }
+  ]
+	});
+	
+	
+
+	
 	
 // Form Focus
 
