@@ -8,12 +8,14 @@
 		
 		<div class="section_five_content content">
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officiab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explica ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explibo.</p>
+			<p>We know you may be hesitant to pursue a potentially complex legal claim at this time. You have been injured, and the concern at the top of your mind now is simply recovering and getting your life going again after the accident. However, you should be aware that New York law does have strict statutes of limitations for pursuing claims for personal injury. Even if you meet all the qualifications for receiving compensation, if you file your claim too late, the court will have no choice but to bar your claim from proceeding. Don’t make the mistake of waiting too long to find out if your claim requires legal pursuit. Our attorneys will offer you their professional advice on  the merits of your claim. We’ll tell you our honest opinion – even if it is not necessarily the news you want to hear.<p>
+
+<p>Accident injuries may have effects that last years to come. Don’t settle for compensation that may leave you stuck with expensive medical bills after your settlement money has run out. Contact the attorneys of The Schlemmer Firm today to set up a consultation. There’s no obligation, just a chance to establish the trust you need in your attorney.</p>
 
  		</div><!-- section_five_content -->
  		
  		
- 		<div class="case_results_wrapper">
+ 		<div class="case_results_wrapper" style="display: none;">
 	 		
 	 		<div class="single_case_results">
 		 		

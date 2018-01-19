@@ -835,7 +835,7 @@
 		"oAP": "\/images\/new-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/new-tablet.jpg": {
@@ -1046,6 +1046,16 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/js\/_banner_randomizer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/_banner_randomizer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/custom-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1084,6 +1094,16 @@
 		"oAP": "\/js\/homepage-min.js",
 		"oF": 0,
 		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/internals-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/internals-min-min.js",
+		"oF": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/internals.js": {

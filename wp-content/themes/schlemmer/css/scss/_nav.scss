@@ -210,7 +210,7 @@
 
 
 
-.mobile_back {
+.nav_col .sub_menu_container ul.sub-menu li.mobile_back {
 	display: block;
 /*
 	opacity: 0;
@@ -218,12 +218,15 @@
 	visibility: visible;
 */
 opacity: 1;
-	color:$bluelight;
+	
 	font-family: $questrabold;
 	text-transform: none;
 	font-size:26px;
 	margin-bottom:57px;
 	letter-spacing: 1px;
+	a {
+		color:$bluelight;
+	}
 }
 
 

@@ -145,10 +145,13 @@
 		 height: 59px;
 		 background-image: none;
 		 background-color:$bluelight;
+		 
 	}
 	
 .second_sticky_left {
 	justify-content: center;
+	padding-left:0;
+	padding-right:0;
 	span.ready_cta {
 		display: none;
 	}
@@ -166,6 +169,7 @@
 		display: none;
 	}
 }
+
 
 
 

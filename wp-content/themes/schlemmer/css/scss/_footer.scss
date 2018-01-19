@@ -64,7 +64,7 @@ svg#bridge {
 				color:$bluelight;
 			}
 		}
-		li#field_1_5 {
+		li#field_1_5, li#field_3_5 {
 			width:100%;
 			input {
 				span {
@@ -72,7 +72,7 @@ svg#bridge {
 				}
 			}
 		}
-		li#field_1_5.focused {
+		li#field_1_5.focused, li#field_3_5.focused {
 			&:before {
 				
 				top: 187px;
@@ -195,6 +195,7 @@ svg#bridge {
 		transition: all .2s ease-in-out;
 		cursor: pointer;
 		margin-top:25px;
+		border:none;
 		&:hover {
 			background:$bluelight;
 			color:#fff;
@@ -378,7 +379,10 @@ body:not(.page-template-page-home ) {
 						color:#fff;
 					}
 				}
-				li#field_1_5.focused {
+				li#field_2_5 {
+					width:100%;
+				}
+				li#field_2_5.focused {
 					&:before {
 						top: 153px;
 					}
@@ -574,7 +578,7 @@ body:not(.page-template-page-home) {
 				}
 			}
 		}
-		li#field_1_5.focused {
+		li#field_2_5.focused {
 			&:before {
 				top:124px;
 			
@@ -684,9 +688,9 @@ body:not(.page-template-page-home) {
 				}
 			}
 		}
-		li#field_1_5.focused {
+		li#field_1_5.focused, li#field_3_5.focused {
 			&:before {
-				
+				top:161px;
 			
 			}
 		}
@@ -790,7 +794,7 @@ body:not(.page-template-page-home) {
 				}
 			}
 		}
-		li#field_1_5.focused {
+		li#field_2_5.focused {
 			&:before {
 				// top: 124px;
 			
@@ -887,7 +891,7 @@ body:not(.page-template-page-home) {
 				}
 			}
 		}
-		li#field_1_5.focused {
+		li#field_1_5.focused, li#field_3_5.focused {
 			&:before {
 				top:135px;
 			}
@@ -1205,7 +1209,7 @@ span.address_header {
 				}
 			}
 		}
-		li#field_1_5.focused {
+		li#field_1_5.focused, li#field_3_5.focused {
 			&:before {
 				top: 132px;
 			}
@@ -1315,7 +1319,7 @@ body:not(.page-template-page-home) {
 						}
 					}
 				}
-				li#field_1_5.focused {
+				li#field_2_5.focused {
 					&:before {
 						top: 115px;
 					}

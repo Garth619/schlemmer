@@ -1,6 +1,7 @@
-<div class="banner">
+<div id="randomizer" class="banner">
 	
 	<span class="banner_title">
+
 		
 		<?php 
 			

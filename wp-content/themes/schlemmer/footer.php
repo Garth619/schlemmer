@@ -106,7 +106,7 @@
 					
 					<span class="footer_required">Form Field Required <span class="ast">*</span></span>
 			
-					<?php gravity_form(1, false, false, false, '', true, 124); ?>
+					<?php gravity_form(2, false, false, false, '', true, 524); ?>
 			
 				</div><!-- form_wrapper -->
 				

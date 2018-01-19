@@ -65,6 +65,8 @@ img.aligncenter {
 		padding-bottom:35px;
 		border-bottom: 5px solid $bluelight;
 		margin-bottom:40px;
+		font-weight:300;
+		font-style:normal
 	}
 	h2 {
 		color:$bluelight;
@@ -129,7 +131,9 @@ body:not(.page-template-page-home), body:not(.page-template-default) {
 }
 
 
-
+span.blue {
+	color:$bluelight;
+}
 
 
 
