@@ -1045,6 +1045,117 @@ svg#ny {
 }
 
 
+.sticky_form_overlay {
+	.sticky_overlay_close {
+		div {
+			&:first-of-type {
+				transform: rotate(0);
+			}
+			&:last-of-type {
+				transform: rotate(0);
+			}
+		}
+	}
+} 
+
+
+.sticky_form_overlay.open {
+	.sticky_overlay_close {
+		div {
+			animation-duration: 800ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 800ms;
+			&:first-of-type {
+				animation-name: firstx_rotate;
+			}
+			&:last-of-type {
+				animation-name: lastx_rotate;
+			}
+		}
+	}
+} 
+
+
+
+
+/*
+.sticky_form_overlay.open {
+	.sticky_overlay_close { 
+	.overlay_close {
+		div {
+			animation-duration: 800ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 800ms;
+			&:first-of-type {
+				animation-name: firstx_rotate;
+			}
+			&:last-of-type {
+				animation-name: lastx_rotate;
+			}
+		}
+	}
+	}
+}
+*/
+
+
+
+
+
+
+
+
+.sticky_form_overlay.open {
+	svg#bridge {
+		opacity: 0;
+	}
+	span.get_started {
+		position: relative;
+		z-index:5;
+		opacity: 0;
+	}
+	span.required {
+		opacity: 0;
+	}
+}
+
+
+
+.sticky_form_overlay.open {
+	svg#bridge {
+		animation-name: fade, ny_move;
+		animation-duration: 900ms, 1800ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-direction: 2s;
+	}
+	
+	span.get_started {
+		animation-name: fade;
+		animation-duration: 900ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 1s;
+	}
+	
+	span.required {
+		animation-name: fade;
+		animation-duration: 900ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 1s;
+	}
+	
+	
+}
+
+
+
+
+
+
 #footer_trigger #form_section {
 	span.get_started {
 		position: relative;
@@ -1074,6 +1185,9 @@ svg#ny {
 		animation-delay: 0.5ms;
 	}
 }
+
+
+
 
 
 // location section
@@ -1113,6 +1227,7 @@ body.page-template-page-home {
 
 
 
+
 @keyframes location_scale {
   from {
     transform: scale(1.3,1.3);
@@ -1147,7 +1262,7 @@ body:not(.page-template-page-home) {
 	}
 	
 	
-	@keyframes brooklyn_fade {
+@keyframes brooklyn_fade {
   from {
     opacity: 0;
  	}
@@ -1165,7 +1280,140 @@ body:not(.page-template-page-home) {
 
 
 
+// about internal
+
+
+
+.int_about_pic {
+	overflow: hidden;
+	opacity: 0;
+	img {
+		transform: scale(1.4,1.4);
+	}
+}
+
+
+.int_about_pic.ready {
+	animation-name: fade, about_move;
+	animation-duration: 500ms, 1800ms;
+	animation-fill-mode: both;
+	animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+	img {
+		animation-name:about_scale;
+		animation-duration:1800ms;
+		animation-fill-mode: both;
+		animation-timing-function:cubic-bezier(.17,.66,.34,.98);
+	}
+}
+
+
+@keyframes about_move {
+  from {
+    transform: translateY(-95px);
+ 	}
+
+  to {
+   transform: translateY(0px);
+   }
+}
+
+
+@keyframes about_scale {
+  from {
+    transform: scale(1.2,1.2);
+ 	}
+
+  to {
+   transform: scale(1,1);
+   }
+}
+
+
+
+body.page-template-page-about {
+	
+	
+	#second_about_trigger {
+		svg#brooklyn {
+			opacity: 0;
+		}
+	}
+	
+	
+	#second_about_trigger.visible {
+		svg#brooklyn {
+			animation-name: bro_fade, svg_about_move;
+			animation-duration: 500ms, 1800ms;
+			animation-fill-mode: both;
+			animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+	
+	
+	@keyframes svg_about_move {
+  	from {
+    	transform: translateX(-100px) rotate(-55deg);
+			}
+
+			to {
+			transform: translateX(0px) rotate(-35deg);
+   	}
+	}
+	
+	
+	
+	@keyframes bro_fade {
+  	from {
+    	opacity: 0;
+			}
+
+			to {
+			opacity: 0.3;
+   	}
+	}
+
+	
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+
+	
+
+	.sidebar_bio {
+		img {
+			opacity: 0;
+			animation-name: fade, bio_move;
+			animation-duration: 500ms, 1000ms;
+			animation-fill-mode: both;
+			animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+		}
+		
+	}
+
+	
+
+	
+	@keyframes bio_move {
+  	from {
+    	transform: translateY(-50px);
+			}
+
+			to {
+			transform: translateY(0px);
+   	}
+	}
+	
+	
+
+
 } /* Media Query */
+
 
 
 

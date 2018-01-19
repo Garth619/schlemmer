@@ -89,7 +89,7 @@
 			</div><!-- int_about_bottom -->
 			
 			
-			<div class="second_int_about_wrapper">
+			<div id="second_about_trigger" class="second_int_about_wrapper">
 				
 				
 				<div class="second_int_about_inner">

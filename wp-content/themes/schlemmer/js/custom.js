@@ -94,6 +94,14 @@ waypoint(footer, '500px')
 
 
 
+var secondabout = $('#second_about_trigger')
+
+waypoint(secondabout, '500px')
+
+
+
+
+
 
 	
 	
@@ -432,6 +440,14 @@ $('.sticky_overlay_close').on('click', function(e) {
 	$('.sticky_form_overlay').removeClass('open');
   
 });
+
+
+
+
+
+
+$('.int_about_pic').addClass('ready');
+
 
 
 
