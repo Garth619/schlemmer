@@ -1,0 +1,1 @@
+function createWaypoint(e,n,t,a,o,c){var l=new Waypoint({element:document.getElementById(e),handler:function(e){"down"===e?(jQuery(n).addClass(t),"function"==typeof o&&o.call()):c&&(jQuery(n).removeClass(t),"function"==typeof o&&o.call())},offset:a})}createWaypoint("header_trigger",".second_sticky_menu","active","-144px",null,!0);

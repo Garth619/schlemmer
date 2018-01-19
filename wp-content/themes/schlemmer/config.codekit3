@@ -245,6 +245,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_second-sticky-menu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_second-sticky-menu.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_slick.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1069,6 +1082,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/homepage-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/internals.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/internals-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0

@@ -39,15 +39,9 @@
 
 
 
-
-
-							createWaypoint("section_two", ".sticky_get_started_tab_wrapper", "active", "300px", null, true);
+						createWaypoint("header_trigger", ".second_sticky_menu", "active", "0", null, true);
 							
-							createWaypoint("footer_trigger", ".sticky_get_started_tab_wrapper", "close", "500px", null, true);
-							
-							
-							
-							createWaypoint("section_two", ".second_sticky_menu", "active", "3%", null, true);
+						
 							
 
 

@@ -34,7 +34,7 @@
 
 <body <?php body_class(); ?>>
 				
-<header>
+<header id="header_trigger">
 	
 <div class="mobile_logo_internals">
 	
@@ -83,6 +83,33 @@
 	</div><!-- menu_prompt -->
 	
 </div><!-- sticky_menu -->
+
+
+
+
+<div class="second_sticky_menu">
+	
+	<div class="second_sticky_left">
+		
+		<span class="ready_cta">Ready to start your free consultation?</span><!-- ready_cta -->
+		
+		<span class="ready_cta_mobile">Free Case Evaluation</span><!-- ready_cta -->
+		
+		<span class="get_cta">Get Started Today</span><!-- get_cta -->
+		
+	</div><!-- second_sticky_left -->
+	
+	<div class="menu_prompt sticky">
+				
+		<span class="menu_bars"></span><!-- menu_bars -->
+				
+		<span class="menu_bars"></span><!-- menu_bars -->
+				
+		<span class="menu_bars"></span><!-- menu_bars -->
+				
+	</div><!-- menu_prompt -->
+	
+</div><!-- second_sticky_menu -->
 
 
 <div id="nav_overlay">
