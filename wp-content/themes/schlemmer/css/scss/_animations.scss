@@ -433,10 +433,311 @@
 }
 
 
+
+@media screen and (min-width: 1600px) {
+
+	
+// section one
+
+
+.logo {
+	opacity: 0;
+	
+	animation-name: fade;
+  animation-duration: 900ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+ 		visibility: hidden;
+  }
+
+  to {
+    opacity: 1;
+    visibility: visible;
+    
+  }
+}
+
+span.line_one,span.line_two, span.third_line_height {
+	opacity: 0;
+	display: block;
+}
+
+
+span.line_one {
+	animation-name: fade, title_move;
+  animation-duration: 900ms, 2200ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 1.75s;
+}
+
+
+span.line_two {
+	animation-name: fade,title_move;
+  animation-duration: 900ms, 2200ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 2.25s;
+}
+
+
+
+span.third_line_height {
+	animation-name: fade, title_move;
+  animation-duration: 900ms, 2000ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 2.75s;
+ }
+
+
+@keyframes title_move {
+  from {
+    transform: translateX(-100px);
+  }
+
+  to {
+    transform: translateX(0px);
+   }
+}
+
+
+span.get_started_button {
+	opacity: 0;
+	
+	animation-name: fade, button_move;
+  animation-duration: 900ms, 1200ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 3.25s;
+}
+
+
+
+@keyframes button_move {
+  from {
+    transform: translateX(-100px);
+  }
+
+  to {
+    transform: translateX(0px);
+   }
+}
+
+
+
+// Menu
+
+
+.menu_wrapper {
+	animation-name: menu_move;
+  animation-duration: 1200ms;
+  animation-fill-mode: both;
+  animation-timing-function:cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 4.25s;
+}
+
+
+@keyframes menu_move {
+  from {
+    transform: translateY(-150px);
+  }
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+.menu_prompt {
+	span.menu_bars, span.menu_title {
+		opacity: 0;
+		animation-name: fade, bar_move;
+		animation-duration: 400ms, 800ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		&:nth-of-type(1) {
+			animation-delay: 5s;
+		}
+		&:nth-of-type(2) {
+			animation-delay: 5.2s;
+		}
+		&:nth-of-type(3) {
+			animation-delay: 5.4s;
+		}
+	}
+	span.menu_title {
+		animation-delay: 5.6s;
+	}
+}
+
+
+
+@keyframes bar_move {
+  from {
+    transform: translateX(20px);
+  }
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+
+.phone_wrapper a {
+	opacity: 0;
+	display: block;
+	
+	animation-name: fade, tel_move;
+  animation-duration: 900ms, 1100ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 5s;
+}
+
+
+@keyframes tel_move {
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+
+.selling_points {
+	opacity: 0;
+	
+	animation-name: fade, selling_points_move;
+  animation-duration: 900ms, 1100ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 6.25s;
+}
+
+
+
+@keyframes selling_points_move {
+  from {
+    transform: translateY(-30px);
+  }
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+.section_two_img_wrapper {
+	opacity: 0;
+	overflow: hidden;
+}
+
+#section_two.visible .section_two_img_wrapper {
+	animation-name: fade, image_wrapper_move;
+  animation-duration: 900ms, 2000ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 0.5s;
+  img.section_two_img {
+	  
+	  animation-name: image_scale;
+		animation-duration:2000ms;
+		animation-fill-mode: both;
+		animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 0.5s;
+  }
+}
+
+
+@keyframes image_wrapper_move {
+  from {
+    transform: translateY(-150px);
+  }
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+@keyframes image_scale {
+  from {
+    transform: scale(1.2);
+  }
+
+  to {
+    transform: scale(1);
+   }
+}
+
+
+// section four
+
+	span.sec_four_line_one, span.sec_four_line_two, span.sec_four_line_three, span.sec_four_line_four {
+		opacity: 0;
+	} 
+	
 	
 
 
 
+
+
+#section_four.visible {
+	span.sec_four_line_one {
+		animation-name: fade, title_move;
+		animation-duration: 900ms, 2200ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 1.75s;
+	}
+	span.sec_four_line_two {
+		animation-name: fade, title_move;
+		animation-duration: 900ms, 2200ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 2.25s;
+	}
+	span.sec_four_line_three {
+		animation-name: fade, title_move;
+		animation-duration: 900ms, 2200ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 2.75s;
+	}
+	span.sec_four_line_four {
+		animation-name: fade, title_move;
+		animation-duration: 900ms, 2200ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 3.5s;
+	}
+}
+
+
+
+
+
+
+
+
+
+} /* Media Query */
 
 
 

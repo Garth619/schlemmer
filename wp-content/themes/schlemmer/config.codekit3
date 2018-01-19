@@ -1046,16 +1046,6 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/js\/_banner_randomizer.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/_banner_randomizer-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/js\/custom-min.js": {
 		"ft": 64,
 		"ma": 0,

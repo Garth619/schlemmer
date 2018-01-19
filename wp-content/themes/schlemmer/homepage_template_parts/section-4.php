@@ -4,7 +4,7 @@
 		
 		<div class="sec_four_content">
 			
-			<span class="large_header"><span>what</span> <span>our</span> <span>clients</span> <span>say</span></span><!-- large_header -->
+			<span class="large_header"><span class="sec_four_line_one">what</span> <span class="sec_four_line_two">our</span> <span class="sec_four_line_three">clients</span> <span class="sec_four_line_four">say</span></span><!-- large_header -->
 			
 			<a class="testimonial_button" href="">View All Testimonials</a>
 			

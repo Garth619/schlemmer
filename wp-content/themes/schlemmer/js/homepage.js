@@ -1,4 +1,85 @@
- function createWaypoint (triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
+ 
+ var createWaypoint = function(selector, offsetVal, customFunc, reverse) {
+    reverse = typeof reverse !== 'undefined' ? reverse: true
+    offsetVal = typeof offsetVal !== 'undefined' ? offsetVal: "50%"
+    selector.waypoint({
+        handler: function(direction) {
+            if (reverse === true) {
+
+                if ( direction === 'down' ) {
+                    selector.addClass('visible')
+                    if(typeof customFunc === 'function' && customFunc) {
+                        customFunc.call(this);
+                    }
+                } else {
+                    selector.removeClass('visible')
+                }
+
+            } else {
+
+                if ( direction === 'down' ) {
+                    selector.addClass('visible')
+                    if(typeof customFunc === 'function' && customFunc) {
+                        customFunc.call(this);
+                    }
+                    this.destroy()
+                }
+
+            }
+        },
+        offset: offsetVal
+    })
+}
+
+
+
+// document ready
+
+
+
+
+	  
+
+
+
+
+
+
+jQuery(document).ready(function($){
+	
+	
+	
+	
+	
+	
+
+
+
+var waypoint = window.createWaypoint
+
+var sectiontwo = $('#section_two')
+
+waypoint(sectiontwo, '300px')
+
+
+var sectionfour = $('#section_four')
+
+waypoint(sectionfour, '300px')
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+function createWaypoint (triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
                 var waypoint = new Waypoint({
                     element: document.getElementById(triggerElementId),
                     handler: function(direction) {
@@ -54,3 +135,17 @@
 
 
 
+
+	
+	
+
+
+
+}); // Document Ready
+
+
+
+
+
+
+ 

@@ -12,6 +12,8 @@
 
 .section_two_header {
 	padding:140px 0 0 45px;
+	position: relative;
+	z-index:10;
 	h2.small_header {
 		font-family:$gothicdemicondensed;
 		color:#fff;
@@ -173,6 +175,8 @@
 	
 	.section_two_header {
 		padding: 130px 0 0 30px;
+		position: relative;
+		z-index:10;
 		h1.large_header {
 			font-size:180px;
 			top:0;
