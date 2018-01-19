@@ -62,9 +62,32 @@ var sectiontwo = $('#section_two')
 waypoint(sectiontwo, '300px')
 
 
+
+var sectionthree = $('#section_three')
+
+waypoint(sectionthree, '400px')
+
+
+
+
 var sectionfour = $('#section_four')
 
-waypoint(sectionfour, '300px')
+waypoint(sectionfour, '400px')
+
+
+
+var sectionsix = $('#section_six')
+
+waypoint(sectionsix, '500px')
+
+
+
+var footer = $('#footer_trigger')
+
+waypoint(footer, '500px')
+
+
+
 
 
 	

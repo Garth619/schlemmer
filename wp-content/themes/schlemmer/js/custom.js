@@ -354,23 +354,6 @@ $('.sticky_overlay_close').on('click', function(e) {
 });
 
 
-// random internal backgrounds
-
-
-function randombg(){
-  var random= Math.floor(Math.random() * 6) + 0;
-  
-  var currentdomain = window.location.hostname;
-  
-  var bigSize = ["url('/wp-content/themes/schlemmer/images/int_header_1.jpg')",
-                 "url('/wp-content/themes/schlemmer/images/int_header_2.jpg')",
-                 "url('/wp-content/themes/schlemmer/images/int_header_3.jpg')",
-                 "url('/wp-content/themes/schlemmer/images/int_header_4.jpg')"];
-  document.getElementById("randomizer").style.backgroundImage=bigSize[random];
-}
-
-
-randombg();
 
 
 

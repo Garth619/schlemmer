@@ -1,7 +1,9 @@
+/*
 #randomizer {
 	background:top center  no-repeat;
 	background-size:cover;
 }
+*/
 
 
 
@@ -12,7 +14,7 @@
 	justify-content: center;
 	align-items: center;
 	
-	background-size: cover;
+	
 	span.banner_title {
 		color:#fff;
 		text-transform: uppercase;
@@ -23,6 +25,27 @@
 		display: block;
 		margin-top:8px;
 	}
+}
+
+
+.banner.one {
+	background: url(#{$themePath}images/int_header_1.jpg) top center no-repeat;
+	background-size: cover;
+}
+
+.banner.two {
+	background: url(#{$themePath}images/int_header_2.jpg) top center no-repeat;
+	background-size: cover;
+}
+
+.banner.three {
+	background: url(#{$themePath}images/int_header_3.jpg) top center no-repeat;
+	background-size: cover;
+}
+
+.banner.four {
+	background: url(#{$themePath}images/int_header_4.jpg) top center no-repeat;
+	background-size: cover;
 }
 
 

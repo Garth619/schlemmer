@@ -443,10 +443,10 @@
 .logo {
 	opacity: 0;
 	
-	animation-name: fade;
-  animation-duration: 900ms;
+	animation-name: fade, logo_move;
+  animation-duration: 900ms, 1100ms;
   animation-fill-mode: both;
-  animation-timing-function: linear;
+  animation-timing-function: linear, cubic-bezier();
   animation-delay: 1s;
 }
 
@@ -465,9 +465,25 @@
   }
 }
 
+
+
+@keyframes logo_move {
+  from {
+    transform: translateX(-20px);
+  }
+
+  to {
+     transform: translateX(0px);
+    
+  }
+}
+
+
+
+
 span.line_one,span.line_two, span.third_line_height {
 	opacity: 0;
-	display: block;
+	display: inline-block;
 }
 
 
@@ -476,7 +492,7 @@ span.line_one {
   animation-duration: 900ms, 2200ms;
   animation-fill-mode: both;
   animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 1.75s;
+  animation-delay: 1s;
 }
 
 
@@ -485,7 +501,7 @@ span.line_two {
   animation-duration: 900ms, 2200ms;
   animation-fill-mode: both;
   animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 2.25s;
+  animation-delay: 1.5s;
 }
 
 
@@ -495,7 +511,7 @@ span.third_line_height {
   animation-duration: 900ms, 2000ms;
   animation-fill-mode: both;
   animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 2.75s;
+  animation-delay: 2s;
  }
 
 
@@ -542,7 +558,7 @@ span.get_started_button {
   animation-duration: 1200ms;
   animation-fill-mode: both;
   animation-timing-function:cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 4.25s;
+  animation-delay: 1s;
 }
 
 
@@ -565,17 +581,17 @@ span.get_started_button {
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
 		&:nth-of-type(1) {
-			animation-delay: 5s;
+			animation-delay: 1.8s;
 		}
 		&:nth-of-type(2) {
-			animation-delay: 5.2s;
+			animation-delay: 2s;
 		}
 		&:nth-of-type(3) {
-			animation-delay: 5.4s;
+			animation-delay: 2.2s;
 		}
 	}
 	span.menu_title {
-		animation-delay: 5.6s;
+		animation-delay: 2.4s;
 	}
 }
 
@@ -602,7 +618,7 @@ span.get_started_button {
   animation-duration: 900ms, 1100ms;
   animation-fill-mode: both;
   animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 5s;
+  animation-delay:1.8s;
 }
 
 
@@ -626,7 +642,7 @@ span.get_started_button {
   animation-duration: 900ms, 1100ms;
   animation-fill-mode: both;
   animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 6.25s;
+  animation-delay: 1s;
 }
 
 
@@ -686,6 +702,62 @@ span.get_started_button {
 }
 
 
+// SVG Brooklyn
+
+
+
+
+svg#brooklyn {
+	opacity: 0;
+	
+	
+	}
+
+
+
+#section_three.visible {
+	svg#brooklyn {
+		animation-name: fade, svg_move;
+		animation-duration: 500ms, 1800ms;
+		animation-fill-mode: both;
+		animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+	}
+}
+
+
+
+@keyframes svg_move {
+  from {
+    transform: translateX(300px) rotate(40deg);;
+ 	}
+
+  to {
+   transform: translateX(0px) rotate(0deg);;
+   }
+}
+
+
+/*
+
+@keyframes svg_rotate {
+  from {
+    transform: rotate(30deg);
+ 	}
+
+  to {
+   transform: rotate(0deg);
+   }
+}
+*/
+
+
+
+
+
+
+
+
+
 // section four
 
 	span.sec_four_line_one, span.sec_four_line_two, span.sec_four_line_three, span.sec_four_line_four {
@@ -704,37 +776,314 @@ span.get_started_button {
 		animation-duration: 900ms, 2200ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-		animation-delay: 1.75s;
+		animation-delay: 0.75s;
 	}
 	span.sec_four_line_two {
 		animation-name: fade, title_move;
 		animation-duration: 900ms, 2200ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-		animation-delay: 2.25s;
+		animation-delay: 1.25s;
 	}
 	span.sec_four_line_three {
 		animation-name: fade, title_move;
 		animation-duration: 900ms, 2200ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-		animation-delay: 2.75s;
+		animation-delay: 1.5s;
 	}
 	span.sec_four_line_four {
 		animation-name: fade, title_move;
 		animation-duration: 900ms, 2200ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-		animation-delay: 3.5s;
+		animation-delay: 1.75s;
 	}
 }
 
 
 
+.sec_four_left {
+	position: relative;
+	overflow: hidden;
+	&:before {
+		content:"";
+		position: absolute;
+		background: url(#{$themePath}images/test-ny-img-desktop.jpg);
+		background-size:cover;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		display: block;
+		transform: scale(1.5);
+	}
+}
+
+
+
+.sec_four_content {
+	position: relative;
+	z-index: 5;
+}
+
+
+
+#section_four.visible {
+	.sec_four_left {
+		&:before {
+			animation-name:scale_move;
+			animation-duration: 2100ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 500ms;
+		}
+	}
+}
+
+
+@keyframes scale_move {
+  from {
+    transform: scale(1.5, 1.5);
+ 	}
+
+  to {
+   transform: scale(1,1);
+   }
+}
+
+
+.testimonial_button {
+	opacity: 0;
+}
+
+
+#section_four.visible {
+	.testimonial_button {
+		animation-name: fade, title_move;
+		animation-duration: 900ms, 2200ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 2s;
+	}
+}
+
+
+
+svg#ny {
+	opacity: 0;
+}
+
+
+#section_four.visible {
+	svg#ny {
+		animation-name: fade, ny_move;
+		animation-duration: 900ms, 1800ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+	}
+}
+
+
+@keyframes ny_move {
+  from {
+    transform:  translateY(-60px);
+ 	}
+
+  to {
+   transform:  translateY(0px);
+   
+   }
+}
+
+
+
+.testimonial_title_wrapper {
+	span.testimonial_title {
+		z-index:5;
+		position: relative;
+		opacity: 0;
+	}
+}
+
+
+
+#section_four.visible {
+	.testimonial_title_wrapper {
+		span.testimonial_title {
+			animation-name: fade, testi_title_move;
+			animation-duration: 900ms, 1800ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+}
+
+
+
+@keyframes testi_title_move {
+  from {
+    transform:  translateY(40px);
+ 	}
+
+  to {
+   transform:  translateY(0px);
+   
+   }
+}
+
+
+
+// section six 
+
+
+
+.sec_six_title_wrapper {
+	position: relative;
+	z-index: 5;
+}
+
+.sec_six_att_wrapper {
+	overflow: hidden;
+	position: relative;
+	&:before {
+		content:"";
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+		position: absolute;
+		background: url(#{$themePath}images/attorney-paul-schlemmer-desktop.jpg);
+		background-size: cover;
+		transform: scale(1.2, 1.2);
+	}
+}
+
+
+#section_six.visible {
+	.sec_six_att_wrapper {
+		&:before {
+			content:"";
+			animation-name: att_scale;
+			animation-duration: 2200ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+}
+
+
+@keyframes att_scale {
+  from {
+    transform: scale(1.2, 1.2);
+ 	}
+
+  to {
+   transform: scale(1,1);
+   }
+}
+
+
+
+.sec_six_content_wrapper {
+	span.small_header {
+		opacity: 0;
+	}
+	span.large_header {
+		opacity: 0;
+	}
+}
+
+
+#section_six.visible {
+	.sec_six_content_wrapper {
+		span.small_header {
+			animation-name: fade, att_small_title_move;
+			animation-duration: 900ms, 1800ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		}
+		span.large_header {
+			animation-name: fade, att_large_title_move;
+			animation-duration: 900ms, 1800ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+}
+
+
+@keyframes att_small_title_move {
+  from {
+    transform: translateX(-55px);
+ 	}
+
+  to {
+   transform: translateX(0px);
+   }
+}
+
+
+@keyframes att_large_title_move {
+  from {
+    transform: translateX(75px);
+ 	}
+
+  to {
+   transform: translateX(0px);
+   }
+}
 
 
 
 
+// footer form
+
+
+svg#bridge {
+	opacity: 0;
+}
+
+
+#footer_trigger.visible {
+	svg#bridge {
+		animation-name: fade, ny_move;
+		animation-duration: 900ms, 1800ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+	}
+}
+
+
+#form_section {
+	span.get_started {
+		position: relative;
+		z-index:5;
+		opacity: 0;
+		
+	}
+	span.required {
+		opacity: 0;
+	}
+} 
+
+
+#footer_trigger.visible {
+	span.get_started {
+		animation-name: fade;
+		animation-duration: 900ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 0.5ms;
+	}
+	span.required {
+		animation-name: fade;
+		animation-duration: 900ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 0.5ms;
+	}
+}
 
 
 } /* Media Query */

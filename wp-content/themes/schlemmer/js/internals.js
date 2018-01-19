@@ -44,7 +44,7 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 
 
 
-						createWaypoint("header_trigger", ".second_sticky_menu", "active", "0", null, true);
+						createWaypoint("header_trigger", ".second_sticky_menu", "active", "-100px", null, true);
 							
 						
 							

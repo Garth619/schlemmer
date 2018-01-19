@@ -25,7 +25,7 @@
 	background: url(#{$themePath}images/stardust_texture.jpg) top left repeat;
 	padding:125px 60px 0;
 	.sec_six_title_wrapper {
-		margin-left:-350px;
+		margin-left:-292px;
 	}
 	span.small_header {
 		color:$bluelight;
@@ -76,6 +76,20 @@
 
 
 
+@media screen and (max-width: 1795px) {
+	
+	
+	
+	.sec_six_content_wrapper {
+		.sec_six_title_wrapper {
+			margin-left: -250px;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1695px) {
 	
 	
@@ -88,7 +102,7 @@
 
 .sec_six_content_wrapper {
 	.sec_six_title_wrapper {
-		 margin-left: -40%;
+		 margin-left: -33%;
 	}
 	 span.large_header {
 		 font-size:135px;
@@ -109,17 +123,35 @@
 } /* Media Query */
 
 
+
+
+@media screen and (max-width: 1470px) {
+	
+	.sec_six_content_wrapper span.large_header {
+		margin-left: 54px;
+		font-size: 132px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
 @media screen and (max-width: 1380px) {
 	
 	
-.sec_six_content_wrapper {
-	.sec_six_title_wrapper {
-		 margin-left: -44%;
-	}
-	 span.large_header {
-		 
-	 }
+.sec_six_content_wrapper .sec_six_title_wrapper {
+    margin-left: -34%;
+   
 }
+
+
+.sec_six_content_wrapper span.large_header {
+		
+		font-size: 128px;
+	}
+	
 
 	
 	
@@ -135,10 +167,12 @@
 	
 .sec_six_content_wrapper {
 	.sec_six_title_wrapper {
-		 margin-left: -46%;
+		 margin-left: -32%;
 	}
 	 span.large_header {
-		 
+		 font-size: 124px;
+		 line-height: 114px;
+		 margin-left: 39px;
 	 }
 }
 	
@@ -151,6 +185,7 @@
 	
 	
 	
+/*
 .sec_six_content_wrapper {
 	.sec_six_title_wrapper {
 		 margin-left: -50%;
@@ -161,6 +196,7 @@
 }
 	
 	
+*/
 	
 	
 } /* Media Query */
@@ -180,7 +216,7 @@
 	width:50%;
 
 	.sec_six_title_wrapper {
-		margin-left: -68%;
+		margin-left: -39%;
 	}
 	 span.large_header {
 		 font-size:106px;
@@ -197,6 +233,52 @@
 	} 
 	
 	   
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1220px) {
+	
+	
+	
+	.sec_six_content_wrapper .sec_six_title_wrapper {
+    margin-left: -44%;
+}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1160px) {
+	
+	
+	
+	.sec_six_content_wrapper .sec_six_title_wrapper {
+    margin-left: -49%;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1120px) {
+	
+	
+	
+	.sec_six_content_wrapper span.large_header {
+		font-size: 100px;
+    line-height: 87px;
+	}
+	
+	
+	.sec_six_content_wrapper span.large_header {
+    margin-left: 31px;
+	}
+	
+	
 	
 } /* Media Query */
 
@@ -328,3 +410,7 @@
 	
 	
 } /* Media Query */
+
+
+
+
