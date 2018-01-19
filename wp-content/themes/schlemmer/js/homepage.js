@@ -87,6 +87,12 @@ var footer = $('#footer_trigger')
 waypoint(footer, '500px')
 
 
+var footer = $('#location_section')
+
+waypoint(footer, '500px')
+
+
+
 
 
 
