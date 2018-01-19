@@ -14,12 +14,92 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
 
 
+ 
+ var createWaypoint = function(selector, offsetVal, customFunc, reverse) {
+    reverse = typeof reverse !== 'undefined' ? reverse: false
+    offsetVal = typeof offsetVal !== 'undefined' ? offsetVal: "50%"
+    selector.waypoint({
+        handler: function(direction) {
+            if (reverse === true) {
 
+                if ( direction === 'down' ) {
+                    selector.addClass('visible')
+                    if(typeof customFunc === 'function' && customFunc) {
+                        customFunc.call(this);
+                    }
+                } else {
+                    selector.removeClass('visible')
+                }
+
+            } else {
+
+                if ( direction === 'down' ) {
+                    selector.addClass('visible')
+                    if(typeof customFunc === 'function' && customFunc) {
+                        customFunc.call(this);
+                    }
+                    this.destroy()
+                }
+
+            }
+        },
+        offset: offsetVal
+    })
+}
 
 
 
 
 jQuery(document).ready(function(){
+	
+	
+	
+	
+
+var waypoint = window.createWaypoint
+
+var sectiontwo = $('#section_two')
+
+waypoint(sectiontwo, '300px')
+
+
+
+var sectionthree = $('#section_three')
+
+waypoint(sectionthree, '400px')
+
+
+
+
+var sectionfour = $('#section_four')
+
+waypoint(sectionfour, '400px')
+
+
+
+var sectionsix = $('#section_six')
+
+waypoint(sectionsix, '500px')
+
+
+
+var footer = $('#footer_trigger')
+
+waypoint(footer, '500px')
+
+
+var footer = $('#location_section')
+
+waypoint(footer, '500px')
+
+
+
+
+	
+	
+	
+	
+	
 	
 	
 	// Menu

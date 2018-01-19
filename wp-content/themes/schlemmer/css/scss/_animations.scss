@@ -440,6 +440,8 @@
 // section one
 
 
+body.page-template-page-home {
+
 .logo {
 	opacity: 0;
 	
@@ -529,11 +531,11 @@ span.third_line_height {
 span.get_started_button {
 	opacity: 0;
 	
-	animation-name: fade, button_move;
-  animation-duration: 900ms, 1200ms;
+	animation-name: fade;
+  animation-duration: 1100ms;
   animation-fill-mode: both;
-  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 3.25s;
+  animation-timing-function: linear;
+  animation-delay: 2.5s;
 }
 
 
@@ -632,7 +634,7 @@ span.get_started_button {
    }
 }
 
-
+}
 
 
 .selling_points {
@@ -737,18 +739,6 @@ svg#brooklyn {
 }
 
 
-/*
-
-@keyframes svg_rotate {
-  from {
-    transform: rotate(30deg);
- 	}
-
-  to {
-   transform: rotate(0deg);
-   }
-}
-*/
 
 
 
@@ -1040,7 +1030,7 @@ svg#ny {
 // footer form
 
 
-svg#bridge {
+#footer_trigger svg#bridge {
 	opacity: 0;
 }
 
@@ -1055,7 +1045,7 @@ svg#bridge {
 }
 
 
-#form_section {
+#footer_trigger #form_section {
 	span.get_started {
 		position: relative;
 		z-index:5;
@@ -1088,7 +1078,7 @@ svg#bridge {
 
 // location section
 
-
+body.page-template-page-home {
 
 
 .address_image {
@@ -1119,6 +1109,8 @@ svg#bridge {
 	}
 }
 
+}
+
 
 
 @keyframes location_scale {
@@ -1131,6 +1123,44 @@ svg#bridge {
    }
 }
 
+
+
+
+body:not(.page-template-page-home) {
+	
+	.address_image {
+		svg#brooklyn {
+			opacity: 0;
+		}
+	}
+	
+	
+	#location_section.visible {
+		.address_image {
+			svg#brooklyn {
+				animation-name: brooklyn_fade, svg_move;
+				animation-duration: 500ms, 1800ms;
+				animation-fill-mode: both;
+				animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+			}
+		}
+	}
+	
+	
+	@keyframes brooklyn_fade {
+  from {
+    opacity: 0;
+ 	}
+
+  to {
+   opacity: 0.3;
+   }
+}
+
+	
+	
+	
+}
 
 
 

@@ -3,6 +3,9 @@ jQuery(document).ready(function($){
 
 
 
+
+
+
 function createWaypoint (triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
                 var waypoint = new Waypoint({
                     element: document.getElementById(triggerElementId),
