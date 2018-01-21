@@ -121,7 +121,7 @@
 		
 		<ul>
 			
-			<li>Copyright &copy; 2017 - The schlemmer firm llc</li>
+			<li>Copyright &copy; <?php echo date("Y"); ?> - The schlemmer firm llc</li>
 			<li><a href="">disclaimer</a></li>
 			<li><a href="">sitemap</a></li> 
 			<li><a href="">google+</a></li>

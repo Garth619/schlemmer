@@ -1079,28 +1079,6 @@ svg#ny {
 
 
 
-/*
-.sticky_form_overlay.open {
-	.sticky_overlay_close { 
-	.overlay_close {
-		div {
-			animation-duration: 800ms;
-			animation-fill-mode: both;
-			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
-			animation-delay: 800ms;
-			&:first-of-type {
-				animation-name: firstx_rotate;
-			}
-			&:last-of-type {
-				animation-name: lastx_rotate;
-			}
-		}
-	}
-	}
-}
-*/
-
-
 
 
 
@@ -1129,7 +1107,7 @@ svg#ny {
 		animation-duration: 900ms, 1800ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-		animation-direction: 2s;
+		animation-delay: 0.75s;
 	}
 	
 	span.get_started {
@@ -1137,7 +1115,7 @@ svg#ny {
 		animation-duration: 900ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear;
-		animation-delay: 1s;
+		animation-delay: 0.75s;
 	}
 	
 	span.required {
@@ -1145,7 +1123,7 @@ svg#ny {
 		animation-duration: 900ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear;
-		animation-delay: 1s;
+		animation-delay: 0.75s;
 	}
 	
 	
