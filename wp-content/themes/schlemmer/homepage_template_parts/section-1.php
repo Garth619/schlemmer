@@ -11,9 +11,15 @@
 	<div class="section_one_content">
 		
 		
-		<span class="tagline"><span class="line_one">Fighting for</span> <span class="line_two">what matters</span> <span class="third_line_height">to you</span></span><!-- tagline -->
+		<span class="tagline">
+			
+<!-- 			<span class="line_one">Fighting for</span> <span class="line_two">what matters</span> <span class="third_line_height">to you</span> -->
+
+		<?php the_field( 'call_to_action' ); ?>
 		
-		<span class="get_started_button">Lets Get Started </span><!-- get_started_button -->
+		</span><!-- tagline -->
+		
+		<span class="get_started_button"><?php the_field( 'lets_get_started_button_verbiage' ); ?></span><!-- get_started_button -->
 		
 		
 	</div><!-- section_one_content -->
@@ -26,7 +32,7 @@
 			
 			<div class="phone_wrapper">
 				
-				<a href="tel:(888) 458-8500">(888) 458-8500</a>
+				<a href="tel:<?php the_field( 'header_phone','option' ); ?>"><?php the_field( 'header_phone','option' ); ?></a>
 				
 			</div><!-- phone_wrapper -->
 			
@@ -44,35 +50,30 @@
 			
 		</div><!-- menu_wrapper -->
 		
-		<div class="selling_points">
+		
+		<?php if(get_field('selling_points')): ?>
 			
-			
-			<div class="single_sp_wrapper">
+			<div class="selling_points">
+		 
+			<?php while(has_sub_field('selling_points')): ?>
+		 
 				
-				<span class="small_header">Obtained Millions</span><!-- small_header -->
+				<div class="single_sp_wrapper">
 				
-				<span class="large_header">Obtained over<br/> $20 million</span><!-- large_header -->
+					<span class="small_header"><?php the_sub_field( 'small_header' ); ?></span><!-- small_header -->
+				
+					<span class="large_header"><?php the_sub_field( 'large_header' ); ?></span><!-- large_header -->
 				
 			</div><!-- single_sp_wrapper -->
+				
+		    
+			<?php endwhile; ?>
 			
-			<div class="single_sp_wrapper">
-				
-				<span class="small_header">Personal Attention</span><!-- small_header -->
-				
-				<span class="large_header">Large firm quality small firm service</span><!-- large_header -->
-				
-			</div><!-- single_sp_wrapper -->
-			
-			<div class="single_sp_wrapper">
-				
-				<span class="small_header">Proven Track Record</span><!-- small_header -->
-				
-				<span class="large_header">Over 20 Years<br/> of Success</span><!-- large_header -->
-				
-			</div><!-- single_sp_wrapper -->
-			
-			
-		</div><!-- selling_points -->
+			</div><!-- selling_points -->
+		 
+		<?php endif; ?>
+		
+		
 		
 	</div><!-- section_right -->
 	

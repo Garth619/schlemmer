@@ -30,6 +30,88 @@
 
 <?php wp_head(); ?>
 
+<script type="application/ld+json">
+{
+     "@context": "http://schema.org",
+     "@type": "Attorney",
+     "name": "The Schlemmer Firm, LLC",
+     "alternateName": " Schlemmer Law",
+         "description": "The Schlemmer Firm, LLC is a personal injury firm serving Brooklyn, New York.",
+     "url" : "https://schlemmerfirm.com/",
+     "logo" : "http://schlemmerfirm.com/wp-content/themes/schlemmer/images/schlemmer_logo.svg",
+     "image" : "http://schlemmerfirm.com/wp-content/uploads/2018/01/schlemmer.jpg",
+     "telephone": " (888) 458-8500",
+     "openingHours" : "Mo,Tu,We,Th,Fr 08:00-17:00",
+     "hasMap": "https://www.google.com/maps/place/THE+SCHLEMMER+FIRM,+LLC/@40.7563801,-73.9729596,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258e32e3be319:0xa66923c939f3ca41!8m2!3d40.7563801!4d-73.9707709",
+     "address":
+          {
+          "@type": "PostalAddress",
+          "streetAddress": "830 Third Avenue, 5th Floor",
+          "addressLocality": "New York",
+          "addressRegion": "NY",
+          "postalCode": "10022",
+          "addressCountry": "USA"
+          },
+     "sameAs": [
+     "https://www.linkedin.com/in/paul-schlemmer-5899017",
+     "https://www.avvo.com/attorneys/10022-ny-paul-schlemmer-4400214.html",
+     "https://twitter.com/pschlemmer",
+     "https://www.facebook.com/schlemmerfirm/?ref=search"
+     ]
+}
+</script>
+
+
+<style type="text/css">
+
+.section_left {
+	background: url(<?php the_field( 'desktop_background_image' ); ?>) top center no-repeat;
+  background-size: cover;
+}
+
+
+.sec_four_left {
+	background: url(<?php the_field( 'section_four_desktop_background_image' ); ?>) top center no-repeat;
+	background-size:cover;
+}
+
+@media screen and (min-width: 1600px) {
+	
+
+		.sec_four_left:before {
+			background: url(<?php the_field( 'section_four_desktop_background_image' ); ?>);
+			background-size:cover;
+		}
+
+	
+} /* Media Query */
+
+@media screen and (max-width: 1060px) {
+	
+	
+	
+	.section_left {
+		background: url(<?php the_field( 'tablet_background_image' ); ?>) top center no-repeat;
+		background-size: cover;
+	}
+	
+	
+	
+} /* Media Query */
+
+@media screen and (max-width: 767px) {
+	
+	
+	.section_left {
+		background: url(<?php the_field( 'mobile_background_image' ); ?>) top center no-repeat;
+		background-size: cover;
+	}
+	
+} /* Media Query */
+
+
+</style>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -58,7 +140,7 @@
 		
 		</a><!-- sticky_menu_logo -->
 		
-		<a class="sticky_tel" href="tel:(888) 458-8500">(888) 458-8500</a><!-- sticky_tel -->
+		<a class="sticky_tel" href="tel:<?php the_field( 'header_phone','option' ); ?>"><?php the_field( 'header_phone','option' ); ?></a><!-- sticky_tel -->
 		
 		
 	

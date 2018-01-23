@@ -799,8 +799,10 @@ svg#brooklyn {
 	&:before {
 		content:"";
 		position: absolute;
+/*
 		background: url(#{$themePath}images/test-ny-img-desktop.jpg);
 		background-size:cover;
+*/
 		top:0;
 		left:0;
 		width:100%;

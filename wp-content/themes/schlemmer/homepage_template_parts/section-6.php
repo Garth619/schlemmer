@@ -11,19 +11,17 @@
 		
 		<div class="sec_six_title_wrapper">
 		
-			<span class="small_header">Attorney</span><!-- small_header -->
+			<span class="small_header"><?php the_field( 'section_small_header' ); ?></span><!-- small_header -->
 		
-			<span class="large_header">Paul Schlemmer</span><!-- large_header -->
+			<span class="large_header"><?php the_field( 'section_large_header' ); ?></span><!-- large_header -->
 			
 		</div><!-- sec_six_title_wrapper -->
 		
 		<div class="sec_six_content content">
 				
-				<p>Paul N. Schlemmer is board certified in civil trial advocacy by the National Board in Trial Advocacy. This distinction is unique, and held by only 4% of the lawyers in the U.S. This prestigious certification requires exceptional performance, as well as recommendations from peers and judges. In addition, Mr. Schlemmer is board certified in pre-trial advocacy by the National Board of Legal Specialty Certification.</p>
-
-				<p>Due to hard work and dedication, Mr. Schlemmer has obtained numerous large money judgments and settlements. However he believes that what is more important than the dollar amount of the win is the ability to secure justice for the members of our community.</p>
+				<?php the_field( 'section_six_content' ); ?>
 				
-				<span class="att_name">Meet Paul</span><!-- att_name -->
+				<a href="<?php the_field( 'meet_paul_link' ); ?>" class="att_name"><?php the_field( 'meet_paul_verbiage' ); ?></a><!-- att_name -->
 				
 			</div><!-- sec_six_content -->
 
