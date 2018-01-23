@@ -32,26 +32,3 @@
 	
 </div><!-- banner -->
 
-<!--
-<?php $banners = Array('one', 'two', 'three'); ?>
-
-<div class="banner <?php echo $banners[array_rand($banners)]; ?>">
-
-</div>
-
-body:not(.home) .banner.one {
-background: url("images/internal-img1.jpg") center center no-repeat;
-background-size: cover;
-}
-
-body:not(.home) .banner.two {
-background: url("images/internal-img2.jpg") center center no-repeat;
-background-size: cover;
-}
-
-body:not(.home) .banner.three {
-background: url("images/internal-img3.jpg") center center no-repeat;
-background-size: cover;
-}
-        
--->

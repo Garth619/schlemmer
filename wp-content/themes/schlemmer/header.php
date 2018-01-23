@@ -75,6 +75,57 @@
 	background-size:cover;
 }
 
+
+.sec_six_att_wrapper {
+	background: url(<?php the_field( 'section_six_att_pic' ); ?>) top left no-repeat;
+	background-size:cover;
+
+}
+
+.address_image {
+	background: url(<?php the_field( 'footer_background_image_desktop','option'); ?>) top left no-repeat;
+	background-size:cover;
+}
+
+
+
+<?php if(get_field('banners','option')): ?>
+ 
+	<?php while(has_sub_field('banners','option')): ?>
+ 
+		
+		.banner.<?php the_sub_field( 'banner_class' ); ?> {
+			background: url(<?php the_sub_field( 'banner_image' ); ?>) top center no-repeat;
+			background-size: cover;
+		}
+
+		
+	<?php endwhile; ?>
+ 
+<?php endif; ?>
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1695px) {
+	
+	
+	
+	
+	
+.sec_six_att_wrapper {
+	background: url(<?php the_field( 'section_six_att_pic' ); ?>) top center no-repeat;
+	background-size:cover;
+}
+	
+	
+} /* Media Query */
+
+
 @media screen and (min-width: 1600px) {
 	
 
@@ -82,6 +133,19 @@
 			background: url(<?php the_field( 'section_four_desktop_background_image' ); ?>);
 			background-size:cover;
 		}
+		
+
+		.sec_six_att_wrapper:before {
+				background: url(<?php the_field( 'section_six_att_pic' ); ?>) top left no-repeat;
+				background-size: cover;
+			}
+		
+		
+		.address_image:before {
+				background: url(<?php the_field( 'footer_background_image_desktop','option'); ?>) top center no-repeat;
+				background-size: cover;
+		}
+
 
 	
 } /* Media Query */
@@ -93,6 +157,13 @@
 	.section_left {
 		background: url(<?php the_field( 'tablet_background_image' ); ?>) top center no-repeat;
 		background-size: cover;
+	}
+	
+	
+	
+	.sec_six_att_wrapper {
+		background: url(<?php the_field( 'section_six_att_tablet_pic' ); ?>) top left no-repeat;
+/* 		background-size:cover; */
 	}
 	
 	

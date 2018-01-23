@@ -3,7 +3,9 @@
 	
 	<div class="sec_six_att_wrapper">
 		
-		<img class="mobile_sec_six" src="<?php bloginfo('template_directory');?>/images/new-mobile.jpg"/>
+		<?php $section_six_att_pic_mobile = get_field( 'section_six_att_pic_mobile' ); ?>
+		
+		<img class="mobile_sec_six" src="<?php echo $section_six_att_pic_mobile['url']; ?>" alt="<?php echo $section_six_att_pic_mobile['alt']; ?>" />
 		
 	</div><!-- section_six_att_wrapper -->
 	

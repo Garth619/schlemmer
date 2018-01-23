@@ -137,10 +137,18 @@
 		<ul>
 			
 			<li>Copyright &copy; <?php echo date("Y"); ?> - The schlemmer firm llc</li>
-			<li><a href="">disclaimer</a></li>
-			<li><a href="">sitemap</a></li> 
-			<li><a href="">google+</a></li>
 			
+			
+			<?php if(get_field('copyright','option')): ?>
+			 
+				<?php while(has_sub_field('copyright','option')): ?>
+			 
+					<li><a href="<?php the_sub_field( 'line_item_link' ); ?>"><?php the_sub_field( 'line_item' ); ?></a></li>
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+				
 		</ul>
 		
 		<a class="ilawyer_marketing" href="//ilawyermarketing.com" target="_blank">
