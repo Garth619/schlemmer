@@ -53,6 +53,7 @@ a.sticky_tel {
 	text-decoration: none;
 	letter-spacing: 1px;
 	margin-top: 8px;
+	
 }
 
 
@@ -68,6 +69,10 @@ a.sticky_tel {
 		color:$bluelight;
 		font-family:$questrabold;
 		font-size:34px;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:#fff;
+		}
 	}
 }
 

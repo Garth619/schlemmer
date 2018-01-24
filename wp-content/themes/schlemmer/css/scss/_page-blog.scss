@@ -241,6 +241,16 @@ body.single {
 	}
 	
 	
+	body.single, body.archive {
+	.blog_content_wrapper.content {
+		h1 {
+			font-size: 45px;
+			line-height: 60px;
+		}
+	}
+}
+	
+	
 	.sidebar.blog {
     margin-top: 52px;
 	}
@@ -268,8 +278,8 @@ body.single {
 			// font-size: 52px;
 			// line-height: 55px;
 			
-			font-size: 46px;
-			line-height: 49px;
+			font-size: 30px;
+			line-height: 37px;
 		}
 	}
 }

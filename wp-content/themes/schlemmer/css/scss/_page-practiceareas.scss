@@ -21,7 +21,7 @@ body.page-template-page-practiceareas {
 		font-weight: 300;
 		font-style: normal;
 		text-transform: uppercase;
-		color:$bluelight;
+		color:$bluedark;
 		font-size:50px;
 		font-family: $gothicdemicondensed;
 		letter-spacing: 25px;
@@ -35,6 +35,9 @@ body.page-template-page-practiceareas {
 		> li.menu-item-has-children {
 			
 				> a {
+					padding-bottom:45px;
+					display: block;
+					color:$bluelight;
 						&:after {
 							content:"";
 							display: block;
@@ -43,6 +46,7 @@ body.page-template-page-practiceareas {
 							background: $bluelight;
 							margin: 35px auto 29px;
 							transform: rotate(-60deg);
+							display: none;
 							
 						}
 					}

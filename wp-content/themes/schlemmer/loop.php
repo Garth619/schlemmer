@@ -31,7 +31,7 @@
 				
 			</div><!-- meta -->
 			
-			<div class="blog_content"><?php echo wp_trim_words( get_the_content(), 106, '...' );?></div><!-- blog_content -->
+			<div class="blog_content"><?php echo wp_trim_words( get_the_content(), 70, '...' );?></div><!-- blog_content -->
 			
 			<a class="read_more_button" href="<?php the_permalink();?>">Read Full Post</a><!-- read_more_button -->
 			

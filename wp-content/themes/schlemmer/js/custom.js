@@ -413,18 +413,20 @@ $('.sidebar ul#menu-practice-areas > li.menu-item-has-children > a').on('click',
 // Get Started 
 
 
+/*
 
 $('.sticky_get_started_tab').on('click', function(e) {
   
 
-	$('.get_started_cta').toggleClass('open');
+ $('.get_started_cta').toggleClass('open');
 
 
 });
+*/
 
 
 
-$('.get_started_cta, span.get_started_button, span.get_cta, span.ready_cta_mobile').on('click', function(e) {
+$('.sticky_get_started_tab, span.get_started_button, span.get_cta, span.ready_cta_mobile').on('click', function(e) {
 	
 	
 	$('.sticky_form_overlay').addClass('open');

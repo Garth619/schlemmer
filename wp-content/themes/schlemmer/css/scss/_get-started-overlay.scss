@@ -22,10 +22,10 @@
 	transition: all 500ms ease-in-out;
 	&:hover {
 		.sticky_get_started_tab {
-			background: #fff;
+			background: $bluedark;
 			
 			span.free_case {
-				color:$bluelight;
+				// color:$bluelight;
 			}
 		}
 	}

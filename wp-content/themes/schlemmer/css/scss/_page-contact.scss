@@ -262,7 +262,7 @@ body.page-template-page-contact {
 	.int_contact_wrapper {
 		  margin: 68px 0 0;
 			h1 {
-				font-size:52px;
+				font-size:80px;
 				margin:0;
 				text-align: center;
 			}
@@ -352,7 +352,7 @@ body.page-template-page-contact {
 	.int_contact_wrapper {
 		  margin: 38px 0 0;
 			h1 {
-				font-size:35px;
+				// font-size:35px;
 				letter-spacing: 4px;
 			}
 		}
@@ -415,10 +415,23 @@ body.page-template-page-contact {
 	}
 }
 
+
 	
 	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 400px) {
 	
 	
+	.int_contact_wrapper {
+		 
+			h1 {
+				font-size: 60px;
+			}
+		}
 	
 	
 	

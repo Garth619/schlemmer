@@ -1173,7 +1173,7 @@ span.address_header {
 #form_section {
 	padding: 36px 0 73px;
 	span.get_started {
-		font-size:41px;
+		font-size:50px;
 		margin-top:-70px;
 		
 	}
@@ -1196,7 +1196,7 @@ span.address_header {
 		
 		li.focused {
 			&:before {
-				top:45px;
+				top:54px;
 			}
 			&:after {
 				
@@ -1292,9 +1292,10 @@ body:not(.page-template-page-home) {
 			padding-left:0;
 			padding-right:0;
 			span.footer_form_title {
-				font-size: 80px;
-				line-height: 78px;
+				font-size: 72px;
+				line-height: 72px;
 				max-width: 500px;
+				padding-bottom:8px;
 			}
 			span.footer_required {
 				margin: 4px 0 0;
