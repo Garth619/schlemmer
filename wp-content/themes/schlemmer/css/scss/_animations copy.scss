@@ -59,6 +59,30 @@
 
 
 
+@keyframes firstx_rotate {
+  from {
+    transform: rotate(0deg);
+ 		
+  }
+
+  to {
+    
+    transform: rotate(-45deg);
+  }
+}
+
+
+@keyframes lastx_rotate {
+  from {
+    transform: rotate(0deg);
+ 		
+  }
+
+  to {
+    
+    transform: rotate(45deg);
+  }
+}
 
 
 
@@ -157,6 +181,33 @@
 }
 
 
+@keyframes number_fade {
+  from {
+    opacity: 0;
+ 	}
+ 	to {
+   opacity: 1;
+  }
+}
+
+
+@keyframes number_change {
+  from {
+    color:$bluelight;
+ 	}
+ 	to {
+   color:#9e9e9e;
+  }
+}
+
+@keyframes number_move {
+  from {
+    // transform: translateY(-3px);
+ 	}
+ 	to {
+   // transform: translateY(0px);
+  }
+}
 
 
 
@@ -206,7 +257,25 @@
 	}
 }
 
+@keyframes bullet_fade {
+  from {
+    opacity: 0;
+ 	}
+ 	to {
+   opacity: 1;
+  }
+}
 
+
+
+@keyframes bullet_move {
+  from {
+    transform: translateX(-55px);
+ 	}
+ 	to {
+   	transform: translateX(0px);
+  }
+}
 
 .nav_col {
 	.sub_menu_container {
@@ -269,6 +338,79 @@
 
 
 
+@keyframes submenu_fade {
+  from {
+    opacity: 0;
+ 		visibility: hidden;
+ 	}
+
+  to {
+    opacity: 1;
+   visibility: visible;
+  }
+}
+
+
+
+/*
+.nav_col.hide {
+		animation-name: nav_col_fade;
+	  animation-duration: 500ms;
+	  animation-fill-mode: both;
+	  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+	  
+	}
+	
+	.nav_col.show {
+		
+		display: block;
+		
+		animation-name: nav_col_show;
+	  animation-duration: 1400ms;
+	  animation-fill-mode: both;
+	  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+	  animation-delay: 1s;
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	@keyframes nav_col_fade {
+	  from {
+	    opacity: 1;
+	 		
+	 		
+	  }
+	
+	  to {
+	    opacity: 0;
+	   
+	    
+	  }
+	}
+	
+	
+	@keyframes nav_col_show {
+	  from {
+	    opacity: 0;
+	 		
+	 		
+	  }
+	
+	  to {
+	    opacity: 1;
+	   
+	    
+	  }
+	}
+	
+	
+*/
 
 
 
@@ -292,8 +434,6 @@
 
 
 
-
-
 @media screen and (min-width: 1600px) {
 
 	
@@ -313,6 +453,32 @@ body.page-template-page-home {
 }
 
 
+
+@keyframes fade {
+  from {
+    opacity: 0;
+ 		visibility: hidden;
+  }
+
+  to {
+    opacity: 1;
+    visibility: visible;
+    
+  }
+}
+
+
+
+@keyframes logo_move {
+  from {
+    transform: translateX(-20px);
+  }
+
+  to {
+     transform: translateX(0px);
+    
+  }
+}
 
 
 
@@ -351,6 +517,15 @@ span.third_line_height {
  }
 
 
+@keyframes title_move {
+  from {
+    transform: translateX(-100px);
+  }
+
+  to {
+    transform: translateX(0px);
+   }
+}
 
 
 span.get_started_button {
@@ -365,6 +540,15 @@ span.get_started_button {
 
 
 
+@keyframes button_move {
+  from {
+    transform: translateX(-100px);
+  }
+
+  to {
+    transform: translateX(0px);
+   }
+}
 
 
 
@@ -380,6 +564,15 @@ span.get_started_button {
 }
 
 
+@keyframes menu_move {
+  from {
+    transform: translateY(-150px);
+  }
+
+  to {
+    transform: translateY(0px);
+   }
+}
 
 
 .menu_prompt {
@@ -406,6 +599,15 @@ span.get_started_button {
 
 
 
+@keyframes bar_move {
+  from {
+    transform: translateX(20px);
+  }
+
+  to {
+    transform: translateY(0px);
+   }
+}
 
 
 
@@ -447,7 +649,15 @@ span.get_started_button {
 
 
 
+@keyframes selling_points_move {
+  from {
+    transform: translateY(-30px);
+  }
 
+  to {
+    transform: translateY(0px);
+   }
+}
 
 
 .section_two_img_wrapper {
@@ -472,7 +682,26 @@ span.get_started_button {
 }
 
 
+@keyframes image_wrapper_move {
+  from {
+    transform: translateY(-150px);
+  }
 
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+@keyframes image_scale {
+  from {
+    transform: scale(1.2);
+  }
+
+  to {
+    transform: scale(1);
+   }
+}
 
 
 // SVG Brooklyn
@@ -499,6 +728,25 @@ svg#brooklyn {
 
 
 
+@keyframes svg_move {
+  from {
+    transform: translateX(300px) rotate(40deg);;
+ 	}
+
+  to {
+   transform: translateX(0px) rotate(0deg);;
+   }
+}
+
+
+
+
+
+
+
+
+
+
 
 // section four
 
@@ -507,6 +755,9 @@ svg#brooklyn {
 	} 
 	
 	
+
+
+
 
 
 #section_four.visible {
@@ -583,7 +834,15 @@ svg#brooklyn {
 }
 
 
+@keyframes scale_move {
+  from {
+    transform: scale(1.5, 1.5);
+ 	}
 
+  to {
+   transform: scale(1,1);
+   }
+}
 
 
 .testimonial_button {
@@ -618,7 +877,16 @@ svg#ny {
 }
 
 
+@keyframes ny_move {
+  from {
+    transform:  translateY(-60px);
+ 	}
 
+  to {
+   transform:  translateY(0px);
+   
+   }
+}
 
 
 
@@ -645,7 +913,16 @@ svg#ny {
 
 
 
+@keyframes testi_title_move {
+  from {
+    transform:  translateY(40px);
+ 	}
 
+  to {
+   transform:  translateY(0px);
+   
+   }
+}
 
 
 
@@ -690,7 +967,15 @@ svg#ny {
 }
 
 
+@keyframes att_scale {
+  from {
+    transform: scale(1.2, 1.2);
+ 	}
 
+  to {
+   transform: scale(1,1);
+   }
+}
 
 
 
@@ -721,6 +1006,27 @@ svg#ny {
 	}
 }
 
+
+@keyframes att_small_title_move {
+  from {
+    transform: translateX(-55px);
+ 	}
+
+  to {
+   transform: translateX(0px);
+   }
+}
+
+
+@keyframes att_large_title_move {
+  from {
+    transform: translateX(75px);
+ 	}
+
+  to {
+   transform: translateX(0px);
+   }
+}
 
 
 
@@ -906,7 +1212,15 @@ body.page-template-page-home {
 
 
 
+@keyframes location_scale {
+  from {
+    transform: scale(1.3,1.3);
+ 	}
 
+  to {
+   transform: scale(1,1);
+   }
+}
 
 
 
@@ -977,7 +1291,26 @@ body:not(.page-template-page-home) {
 }
 
 
+@keyframes about_move {
+  from {
+    transform: translateY(-95px);
+ 	}
 
+  to {
+   transform: translateY(0px);
+   }
+}
+
+
+@keyframes about_scale {
+  from {
+    transform: scale(1.2,1.2);
+ 	}
+
+  to {
+   transform: scale(1,1);
+   }
+}
 
 
 
@@ -1000,7 +1333,28 @@ body.page-template-page-about {
 		}
 	}
 	
+	
+	@keyframes svg_about_move {
+  	from {
+    	transform: translateX(-100px) rotate(-55deg);
+			}
 
+			to {
+			transform: translateX(0px) rotate(-35deg);
+   	}
+	}
+	
+	
+	
+	@keyframes bro_fade {
+  	from {
+    	opacity: 0;
+			}
+
+			to {
+			opacity: 0.3;
+   	}
+	}
 
 	
 	
@@ -1029,7 +1383,16 @@ body.page-template-page-about {
 	
 
 	
+	@keyframes bio_move {
+  	from {
+    	transform: translateY(-50px);
+			}
 
+			to {
+			transform: translateY(0px);
+   	}
+	}
+	
 	
 
 

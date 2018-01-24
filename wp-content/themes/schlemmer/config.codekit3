@@ -37,6 +37,19 @@
 		"oAP": "\/category.php",
 		"oF": 0
 		},
+	"\/css\/scss\/_animations copy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_animations copy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_animations.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -111,6 +124,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_keyframes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_keyframes.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -668,6 +694,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/footer-subway-img-desktop.jpg": {
+		"ft": 16384,
+		"iS": 843008,
+		"oA": 0,
+		"oAP": "\/images\/footer-subway-img-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/footer-subway-img-laptop.jpg": {
 		"ft": 16384,
 		"iS": 196082,
@@ -979,16 +1015,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/stardust_texture.jpg": {
-		"ft": 16384,
-		"iS": 156045,
-		"oA": 0,
-		"oAP": "\/images\/stardust_texture.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/test-ny-graphic.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1014,16 +1040,6 @@
 		"iS": 200622,
 		"oA": 0,
 		"oAP": "\/images\/test-ny-img-laptop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/wavy_line_patterns.jpg": {
-		"ft": 16384,
-		"iS": 23692,
-		"oA": 0,
-		"oAP": "\/images\/wavy_line_patterns.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
