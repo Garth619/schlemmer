@@ -1,7 +1,7 @@
 #section_two {
 	width:100%;
 	background: url(#{$themePath}images/stardust_texture.jpg) top left;
-	padding: 0px 0 150px 7%;
+	padding: 0 0 150px 7%;
 	&:after {
 		content:"";
 		clear:both;
@@ -11,26 +11,24 @@
 
 
 .section_two_header {
-	padding-top: 140px;
+	padding:140px 0 0 45px;
 	position: relative;
 	z-index:10;
-// 	height: 240px;
+	.sec_two_header_wrapper {
+		position: relative;
+		
 		h1.sec_two_header {
-			position: relative;
-			span.large {
-				color:$bluelight;
-				font-family: $questrabold;
-				font-size:248px;
-				text-transform: uppercase;
-				font-weight: 300;
-				font-style:normal;
-				letter-spacing: 1.3px;
-				position: absolute;
-				top:20px;
-				left:170px;
-				
-			}
-			span.small {
+			color:$bluelight;
+			font-family: $questrabold;
+			font-size:248px;
+			text-transform: uppercase;
+			font-weight: 300;
+			font-style:normal;
+			letter-spacing: 1.3px;
+			position: absolute;
+			top:0;
+			left:0;
+			span {
 				font-family:$gothicdemicondensed;
 				color:#fff;
 				font-size:25px;
@@ -38,11 +36,12 @@
 				letter-spacing: 16px;
 				font-weight: 300;
 				font-style:normal;
-				display: block;
-				;
+				position: absolute;
+				top:0;
+				left:0;
 			}
 		}
-	
+	}
 	
 	h2.small_header {
 		font-family:$gothicdemicondensed;
@@ -71,13 +70,8 @@
 }
 
 
-.inner_section_two {
-	overflow: hidden;
-}
-
-
 .section_two_content {
-	margin: 317px 0 0 0;
+	margin:82px 0 0 0;
 	width:51%;
 	padding-left:64px;
 	padding-right:7%;
@@ -97,8 +91,8 @@
 
 .section_two_img_wrapper {
 	float:right;
+	margin:-95px 0 0 0;
 	width: 48%;
-	margin: 150px 0 0 0;
 	img.section_two_img {
 		width: 100%;
 		height:auto;
@@ -122,23 +116,15 @@
 	
 	
 	.section_two_header {
-		margin-left: 75px;
-		h1.sec_two_header {
-			span.large {
-				font-size:220px;
-				top: 26px;	
-			}
+		h1.large_header {
+			margin-left: 75px;
 		}
 	}
-	
-	
-	
 	
 	
 	.section_two_content {
 		padding-left: 44px;
 		padding-right: 5%;
-
 	}
 	
 	
@@ -155,23 +141,23 @@
 	
 	.section_two_img_wrapper {
     width: 47%;
-   
+    margin: -75px 0 0 0;
 	}
 	
 	
 	.section_two_content {
-		 margin: 302px 0 0 0;
+		 margin: 68px 0 0 0;
 	}
 	
 	   
 	
 	.section_two_header {
-		h1.sec_two_header {
-			span.large {
-				font-size:220px;
-				top: 26px;	
-				left:88px;
-			}
+		padding: 140px 0 0 30px;
+		h1.large_header {
+			font-size:220px;
+		}
+		h2.small_header {
+			
 		}
 	}
 	
@@ -190,16 +176,11 @@
 @media screen and (max-width: 1450px) {
 	
 	#section_two {
-		padding: 0 0 102px 5%;
+		padding: 0 0 102px 7%;
 	}
 	
 	.sec_three_content {
     margin: 95px 0 0;
-}
-
-
-.section_two_header {
-    margin-left: 0px;
 }
 	
 	
@@ -241,7 +222,6 @@
 		padding: 130px 0 0 30px;
 		position: relative;
 		z-index:10;
-/*
 		h1.large_header {
 			font-size:180px;
 			top:0;
@@ -251,14 +231,6 @@
 		}
 		h2.small_header {
 			letter-spacing: 15px;
-		}
-*/
-		h1.sec_two_header {
-			span.large {
-				font-size:180px;
-				top: 26px;	
-				left: 46px;
-			}
 		}
 	}
 
@@ -275,21 +247,14 @@
 		display: inline;
 	}
 	
-
+	
 	
 	.section_two_content {
-		 margin: 290px 0 0 0;
 		 p:first-of-type:first-letter {
 			 font-size:120px;
 			  padding: 5px 15px 0px 0;
 		 }
 	}
-	
-	.section_two_img_wrapper {
-		margin: 125px 0 0 0;
-	}
-	
-	
 	
 	
 	
@@ -307,22 +272,8 @@
 	
 	
 	.section_two_header {
-		padding: 120px 0 0 0px;
+		padding: 97px 0 0 0px;
 		text-align: center;
-		h1.sec_two_header {
-			span.large {
-				font-size:118px;
-				top: 0px;	
-				left: 0px;
-				position: static;
-			}
-			span.small {
-				font-size: 18px;
-				letter-spacing: 11px;
-				margin-top: -138px;
-			}
-		}
-/*
 		h1.large_header {
 			font-size:118px;
 			top:0;
@@ -334,19 +285,17 @@
 			letter-spacing: 15px;
 			font-size: 18px;
 		}
-*/
 	}
 	
 	
 	.section_two_content {
 		width:100%;
 		float:none;
-		margin: 160px 0 0 0;
+		margin: 56px 0 0 0;
 	}
 	
 	.section_two_img_wrapper {
 		display: none;
-		
 	}
 	
 	.section_two_content  {
@@ -374,22 +323,7 @@
 	    
 	
 	.section_two_header {
-		padding: 116px 0 0 0px;
-		
-		h1.sec_two_header {
-			span.large {
-				font-size:52px;
-			}
-			span.small {
-				font-size: 16px;
-				margin-top: -100px;
-				margin-left:auto;
-				margin-right:auto;
-				max-width: 310px;
-				line-height: 20px;
-			}
-		}
-/*
+		padding: 70px 0 0 0px;
 		h1.large_header {
 			font-size:52px;
 			margin-top: 6px;
@@ -402,12 +336,11 @@
 			margin-left:auto;
 			margin-right:auto;
 		}
-*/
 	}
 	
 	
 	.section_two_content {
-		margin: 83px 0 0 0;
+		margin: 30px 0 0 0;
 	}
 	
 	

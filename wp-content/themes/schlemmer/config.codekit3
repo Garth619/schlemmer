@@ -375,6 +375,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/home-sections\/_section-two copy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/home-sections\/_section-two copy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/home-sections\/_section-two.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1015,6 +1028,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/stardust_texture.jpg": {
+		"ft": 16384,
+		"iS": 105546,
+		"oA": 0,
+		"oAP": "\/images\/stardust_texture.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/test-ny-graphic.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1040,6 +1063,16 @@
 		"iS": 200622,
 		"oA": 0,
 		"oAP": "\/images\/test-ny-img-laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wavy_line_patterns.jpg": {
+		"ft": 16384,
+		"iS": 7448,
+		"oA": 0,
+		"oAP": "\/images\/wavy_line_patterns.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -4,12 +4,17 @@
 	
 	
 		<div class="section_two_header">
-		
-			<h2 class="small_header">Personal Injury Attorneys</h2><!-- small_header -->
-		
-			<h1 class="large_header">Brooklyn</h1><!-- large_header -->
 			
-		</div><!-- section_two_header -->
+			<h1 class="sec_two_header"><span class="large">Brooklyn</span> <span class="small">Personal Injury Attorneys</span></h1>
+			
+					
+<!--
+			<h2 class="small_header">Personal Injury Attorneys</h2>
+		
+			<h1 class="large_header">Brooklyn</h1>
+-->
+			
+	</div><!-- section_two_header -->
 			
 			<div class="section_two_content content">
 				
