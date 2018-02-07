@@ -8,7 +8,7 @@
 		
 		<span class="bio_list_title"><?php the_field( 'contact_title' ); ?></span><!-- bio_list_title -->
 		
-		<a class="mail" href="mail:<?php the_field( 'contact' ); ?>">p<?php the_field( 'contact' ); ?></a>
+		<a class="mail" href="mail:<?php the_field( 'contact' ); ?>"><?php the_field( 'contact' ); ?></a>
 		
 	</div><!-- bio_list -->
 	

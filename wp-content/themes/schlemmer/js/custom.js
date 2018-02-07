@@ -101,16 +101,7 @@ waypoint(secondabout, '500px')
 
 
 
-
-
-	
-	
-	
-	
-	
-	
-	
-	// Menu
+// Menu
 	
 	
 	
@@ -426,7 +417,7 @@ $('.sticky_get_started_tab').on('click', function(e) {
 
 
 
-$('.sticky_get_started_tab, span.get_started_button, span.get_cta, span.ready_cta_mobile').on('click', function(e) {
+$('.sticky_get_started_tab, span.get_started_button, span.get_cta, span.ready_cta_mobile, .menu_get_started').on('click', function(e) {
 	
 	
 	$('.sticky_form_overlay').addClass('open');
